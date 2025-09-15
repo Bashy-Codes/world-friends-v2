@@ -3,17 +3,15 @@ import {
   View,
   StyleSheet,
   ScrollView,
-  TouchableOpacity,
-  Text,
 } from "react-native";
-import { scale, verticalScale, moderateScale } from "react-native-size-matters";
+import { scale, verticalScale } from "react-native-size-matters";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/lib/Theme";
 import { ScreenHeader } from "@/components/ScreenHeader";
 import { LoadingModal } from "@/components/common/LoadingModal";
 import { useCreateProfile } from "@/hooks/useCreateProfile";
 import { useTranslation } from "react-i18next";
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { Button } from "@/components/ui/Button";
 
 export default function CreateProfileScreen() {
@@ -92,7 +90,7 @@ export default function CreateProfileScreen() {
       </View>
 
       {/* Wrap ScrollView in KeyboardAvoidingView */}
-      <ReliableKeyboardAvoidingView enabled={true}>
+      <KeyboardHandler enabled={true}>
         {/* Step Content */}
         <ScrollView
           ref={scrollViewRef}
@@ -139,7 +137,7 @@ export default function CreateProfileScreen() {
               />
           </View>
         </ScrollView>
-      </ReliableKeyboardAvoidingView>
+      </KeyboardHandler>
 
       {/* Loading Modal */}
       <LoadingModal

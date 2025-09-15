@@ -53,7 +53,7 @@ export const BasicInfo: React.FC<BasicInfoProps> = ({
 
   // Check username availability with debounce
   const isUsernameAvailable = useQuery(
-    api.profiles.checkUsernameAvailability,
+    api.users.checkUsernameAvailability,
     debouncedUsername && debouncedUsername.length >= 3
       ? { userName: debouncedUsername }
       : "skip"

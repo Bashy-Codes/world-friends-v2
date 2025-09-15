@@ -30,7 +30,7 @@ const FriendCardComponent: React.FC<FriendCardProps> = ({
   const [isCreatingConversation, setIsCreatingConversation] = useState(false);
 
   const createConversationMutation = useMutation(
-    api.conversations.createConversation
+    api.communications.conversations.createConversation
   );
   const country = getCountryByCode(friend.country);
 

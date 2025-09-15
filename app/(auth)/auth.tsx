@@ -8,7 +8,7 @@ import { Ionicons } from "@expo/vector-icons"
 import { signUpSchema, signInSchema, type SignUpFormData, type SignInFormData } from "@/validations/auth"
 import { useTheme } from "@/lib/Theme"
 import { scale, verticalScale, moderateScale } from "react-native-size-matters"
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler"
+import { KeyboardHandler } from "@/components/common/KeyboardHandler"
 import { Button } from "@/components/ui/Button"
 import { useTranslation } from "react-i18next"
 
@@ -229,7 +229,7 @@ export default function AuthScreen() {
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]}>
-      <ReliableKeyboardAvoidingView enabled={true}>
+      <KeyboardHandler enabled={true}>
         <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={[styles.card, { backgroundColor: theme.colors.surface }]}>
             <Text style={[styles.title, { color: theme.colors.text }]}>
@@ -264,7 +264,7 @@ export default function AuthScreen() {
             </Text>
           </View>
         </ScrollView>
-      </ReliableKeyboardAvoidingView>
+      </KeyboardHandler>
     </SafeAreaView>
   )
 }

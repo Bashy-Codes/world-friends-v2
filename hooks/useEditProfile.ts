@@ -40,10 +40,10 @@ export const useEditProfile = () => {
   const STEPS = getEditSteps(t);
 
   // Get current profile data
-  const profileData = useQuery(api.profiles.getCurrentProfile);
+  const profileData = useQuery(api.users.getCurrentProfile);
 
   // Convex mutations
-  const updateProfile = useMutation(api.profiles.updateProfile);
+  const updateProfile = useMutation(api.users.updateProfile);
   const generateProfileUploadUrl = useMutation(
     api.storage.generateProfileUploadUrl
   );

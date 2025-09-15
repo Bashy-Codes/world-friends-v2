@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Dimensions, Keyboard, KeyboardAvoidingView } from "react-native";
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Dimensions } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter, useLocalSearchParams } from "expo-router";
 import { useAuthActions } from "@convex-dev/auth/react";
@@ -9,7 +9,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useTheme } from "@/lib/Theme";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import { useTranslation } from "react-i18next";
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 
 const { width } = Dimensions.get("window");
 
@@ -54,7 +54,7 @@ export default function OtpVerificationScreen() {
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]}>
-      <ReliableKeyboardAvoidingView>
+      <KeyboardHandler>
         <ScrollView
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
@@ -102,7 +102,7 @@ export default function OtpVerificationScreen() {
             </TouchableOpacity>
           </View>
         </ScrollView>
-        </ReliableKeyboardAvoidingView>
+        </KeyboardHandler>
     </SafeAreaView>
   );
 }

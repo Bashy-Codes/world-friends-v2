@@ -12,7 +12,7 @@ import {
   getLanguageByCode,
 } from "@/constants/geographics";
 import { Separator } from "@/components/common/Separator";
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { ItemSelector } from "@/components/common/ItemSelector";
 import { SelectedItem } from "@/components/common/SelectedItem";
 
@@ -102,7 +102,7 @@ export const LanguagesCountry: React.FC<LanguagesCountryProps> = ({
   };
 
   return (
-    <ReliableKeyboardAvoidingView enabled style={{paddingHorizontal: scale(20)}}>
+    <KeyboardHandler enabled style={{paddingHorizontal: scale(20)}}>
       {/* Country Selection */}
       <View style={styles.section}>
         <Text style={styles.label}>
@@ -209,6 +209,6 @@ export const LanguagesCountry: React.FC<LanguagesCountryProps> = ({
           )}
         />
       </View>
-    </ReliableKeyboardAvoidingView>
+    </KeyboardHandler>
   );
 };

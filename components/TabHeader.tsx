@@ -20,7 +20,7 @@ export const TabHeader: React.FC<TabHeaderProps> = ({ title }) => {
 
   // Check for unread notifications
   const hasUnreadNotifications = useQuery(
-    api.userManagement.hasUnreadNotifications
+    api.notifications.hasUnreadNotifications
   );
 
   // Navigation handlers

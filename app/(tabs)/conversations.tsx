@@ -45,7 +45,7 @@ export default function ConversationsTab() {
   const [deleteConversationModalVisible, setDeleteConversationModalVisible] = useState(false);
 
   // Mutation for deleting conversation
-  const deleteConversationMutation = useMutation(api.conversations.deleteConversation);
+  const deleteConversationMutation = useMutation(api.communications.conversations.deleteConversation);
 
   // Navigation handler for conversation item press
   const handleConversationPress = useCallback(

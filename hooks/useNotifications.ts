@@ -12,17 +12,17 @@ export const useNotifications = () => {
     status,
     loadMore,
   } = usePaginatedQuery(
-    api.userManagement.getUserNotifications,
+    api.notifications.getUserNotifications,
     {},
     { initialNumItems: 10 }
   );
 
   const markNotificationsAsRead = useMutation(
-    api.userManagement.markNotificationsAsRead
+    api.notifications.markNotificationsAsRead
   );
 
   const deleteAllNotifications = useMutation(
-    api.userManagement.deleteAllNotifications
+    api.notifications.deleteAllNotifications
   );
 
   const getNotificationIcon = (type: NotificationItem["type"]) => {

@@ -10,7 +10,8 @@
 
 import type * as ResendOTP from "../ResendOTP.js";
 import type * as auth from "../auth.js";
-import type * as conversations from "../conversations.js";
+import type * as communications_conversations from "../communications/conversations.js";
+import type * as communications_letters from "../communications/letters.js";
 import type * as discover from "../discover.js";
 import type * as feed_collections from "../feed/collections.js";
 import type * as feed_interactions from "../feed/interactions.js";
@@ -18,11 +19,10 @@ import type * as feed_posts from "../feed/posts.js";
 import type * as friendships from "../friendships.js";
 import type * as helpers from "../helpers.js";
 import type * as http from "../http.js";
-import type * as letters from "../letters.js";
 import type * as moderation from "../moderation.js";
-import type * as profiles from "../profiles.js";
+import type * as notifications from "../notifications.js";
 import type * as storage from "../storage.js";
-import type * as userManagement from "../userManagement.js";
+import type * as users from "../users.js";
 
 import type {
   ApiFromModules,
@@ -41,7 +41,8 @@ import type {
 declare const fullApi: ApiFromModules<{
   ResendOTP: typeof ResendOTP;
   auth: typeof auth;
-  conversations: typeof conversations;
+  "communications/conversations": typeof communications_conversations;
+  "communications/letters": typeof communications_letters;
   discover: typeof discover;
   "feed/collections": typeof feed_collections;
   "feed/interactions": typeof feed_interactions;
@@ -49,11 +50,10 @@ declare const fullApi: ApiFromModules<{
   friendships: typeof friendships;
   helpers: typeof helpers;
   http: typeof http;
-  letters: typeof letters;
   moderation: typeof moderation;
-  profiles: typeof profiles;
+  notifications: typeof notifications;
   storage: typeof storage;
-  userManagement: typeof userManagement;
+  users: typeof users;
 }>;
 declare const fullApiWithMounts: typeof fullApi;
 

@@ -23,7 +23,7 @@ export const useMessages = (conversationGroupId: string) => {
     loadMore,
     isLoading,
   } = usePaginatedQuery(
-    api.conversations.getConversationMessages,
+    api.communications.conversations.getConversationMessages,
     { conversationGroupId },
     { initialNumItems: 10 }
   );

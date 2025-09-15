@@ -40,7 +40,7 @@ export const useCreateProfile = () => {
   const STEPS = getSteps(t);
 
   // Convex mutations
-  const createProfile = useMutation(api.profiles.createProfile);
+  const createProfile = useMutation(api.users.createProfile);
   const generateProfileUploadUrl = useMutation(
     api.storage.generateProfileUploadUrl
   );

@@ -31,7 +31,7 @@ export const useComposeLetter = () => {
   const friendsPickerRef = useRef<any>(null);
 
   // Mutations
-  const sendLetterMutation = useMutation(api.letters.scheduleLetter);
+  const sendLetterMutation = useMutation(api.communications.letters.scheduleLetter);
 
   // Validation constants
   const MIN_CONTENT_LENGTH = 100;

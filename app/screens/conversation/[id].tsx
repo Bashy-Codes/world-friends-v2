@@ -9,7 +9,7 @@ import { useMessages } from "@/hooks/conversations/useMessages";
 import { MessageData } from "@/types/conversations";
 
 // components
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { ConfirmationModal } from "@/components/common/ConfirmationModal";
 import { EmptyState } from "@/components/EmptyState";
 import { ConversationHeader } from "@/components/conversations/ConversationHeader";
@@ -101,7 +101,7 @@ export default function ConversationScreen() {
   }
 
   return (
-    <ReliableKeyboardAvoidingView enabled={true} style={styles.container}>
+    <KeyboardHandler enabled={true} style={styles.container}>
       {/* Header */}
       <ConversationHeader
         otherUser={conversationInfo.otherUser}
@@ -156,6 +156,6 @@ export default function ConversationScreen() {
         onConfirm={confirmDeleteMessage}
         onCancel={() => setDeleteMessageModalVisible(false)}
       />
-    </ReliableKeyboardAvoidingView>
+    </KeyboardHandler>
   );
 }

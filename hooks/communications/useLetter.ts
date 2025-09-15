@@ -10,7 +10,7 @@ export const useLetter = (letterId: Id<"letters">) => {
 
 
   // Fetch letter data
-  const letter = useQuery(api.letters.getLetter, { letterId });
+  const letter = useQuery(api.communications.letters.getLetter, { letterId });
 
   // Loading state
   const isLoading = letter === undefined;

@@ -12,7 +12,7 @@ export const useProfile = () => {
   const { isAuthenticated } = useConvexAuth()
 
   // Get current user profile from Convex - only if authenticated
-  const Profile = useQuery(api.profiles.getCurrentProfile, isAuthenticated ? {} : "skip")
+  const Profile = useQuery(api.users.getCurrentProfile, isAuthenticated ? {} : "skip")
 
   const isLoading = Profile === undefined
 

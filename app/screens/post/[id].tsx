@@ -13,7 +13,7 @@ import { FlashList } from "@shopify/flash-list";
 // UI components
 import { ScreenHeader } from "@/components/ScreenHeader";
 import { ScreenLoading } from "@/components/ScreenLoading";
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { ReactionsModal } from "@/components/feed/ReactionsModal";
 import { ActionSheet } from "@/components/common/ActionSheet";
 import { CollectionsModal } from "@/components/feed/CollectionsModal";
@@ -162,7 +162,7 @@ export default function PostScreen() {
         rightComponent={post && !post.postAuthor.isAdmin ? "ellipsis" : null}
         onRightPress={post && !post.postAuthor.isAdmin ? () => handlePostOptionsPress(post) : undefined}
       />
-      <ReliableKeyboardAvoidingView enabled={true} style={styles.content}>
+      <KeyboardHandler enabled={true} style={styles.content}>
         <ScrollView contentContainerStyle={styles.listContent}>
           {/* Post Card */}
           {post && (
@@ -203,7 +203,7 @@ export default function PostScreen() {
           replyToComment={replyToComment}
           onCancelReply={handleCancelReply}
         />
-      </ReliableKeyboardAvoidingView>
+      </KeyboardHandler>
 
       {/* Sheets and Modals */}
       {Reactions}

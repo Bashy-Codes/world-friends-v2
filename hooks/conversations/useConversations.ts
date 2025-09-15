@@ -19,7 +19,7 @@ export const useConversations = () => {
     loadMore,
     isLoading,
   } = usePaginatedQuery(
-    api.conversations.getUserConversations,
+    api.communications.conversations.getUserConversations,
     {},
     { initialNumItems: 10 }
   );

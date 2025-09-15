@@ -13,7 +13,7 @@ import { moderateScale, scale, verticalScale } from "react-native-size-matters";
 export default function Index() {
   const theme = useTheme();
 
-  const currentUserId = useQuery(api.profiles.getCurrentUserId);
+  const currentUserId = useQuery(api.users.getCurrentUserId);
   const { initializeSDK } = useRevenueCat();
 
   // Initialize RevenueCat when user ID is available

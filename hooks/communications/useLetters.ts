@@ -18,19 +18,19 @@ export const useLetters = () => {
 
   // Queries - only fetch data for active segment
   const receivedLettersQuery = usePaginatedQuery(
-    api.letters.getUserReceivedLetters,
+    api.communications.letters.getUserReceivedLetters,
     activeSegment === "received" ? { paginationOpts } : "skip",
     { initialNumItems: 10 }
   );
 
   const sentLettersQuery = usePaginatedQuery(
-    api.letters.getUserSentLetters,
+    api.communications.letters.getUserSentLetters,
     activeSegment === "sent" ? { paginationOpts } : "skip",
     { initialNumItems: 10 }
   );
 
   // Mutations
-  const deleteLetterMutation = useMutation(api.letters.deleteLetter);
+  const deleteLetterMutation = useMutation(api.communications.letters.deleteLetter);
 
   // Current data based on active segment
   const currentQuery = activeSegment === "received" ? receivedLettersQuery : sentLettersQuery;

@@ -47,18 +47,7 @@
     "day": "day",
     "days": "days"
   },
-    "greetings": {
-      "goodMorning": "Good morning",
-      "goodAfternoon": "Good afternoon",
-      "goodEvening": "Good evening",
-      "goodNight": "Good night"
-    },
-    "filterModal": {
-      "title": "Filters",
-      "country": "Country",
-      "languageSpoken": "Language Spoken",
-      "languageLearning": "Language Learning"
-  },
+
   "profile": {
     "actionText": {
       "settings": "Settings",
@@ -102,28 +91,6 @@
     "schedule": "Schedule Delivery",
     "deliveryTimeInfo": "Your letter will be delivered"
   },
-  "collections":{
-    "create": {
-      "title": "New Collection",
-      "placeholder": "Type Collection name..."
-    }
-  },
-  "comments": {
-    "addComment": "Add a comment...",
-    "reply": "Reply",
-    "replyingTo": "Replying to",
-    "showReply": "Show reply",
-    "hideReply": "Hide reply"
-  },
-  "userCard": {
-    "country": "Country",
-    "speaks": "Speaks",
-    "learning": "Learning"
-  },
-  "notifications": {
-    "clearAll": "Clear All",
-    "emptySubtext": "You'll see notifications about friend requests, messages, and other activities here"
-  },
   "settings": {
     "sectionTitles": {
       "profile": "Profile",
@@ -162,111 +129,6 @@
       "title": "Contact Us",
       "description": "Have questions or need support? Reach out to us!"
     }
-  },
-  "actions": {
-    "composeLetter": "Compose Letter",
-    "writeSomething": "Write Something",
-    "deletePost": "Delete Post",
-    "removeFromCollection": "Remove from Collection",
-    "addToCollection": "Add to Collection",
-    "reportPost": "Report Post",
-    "reportUser": "Report User",
-    "blockUser": "Block User",
-    "removeFriend": "Remove Friend",
-    "deleteConversation": "Delete Conversation",
-    "deleteMessage": "Delete Message",
-    "deleteLetter": "Delete Letter"
-  },
-  "confirmation": {
-    "logout": {
-      "description": "Are you sure you want to logout?"
-    },
-    "deleteAccount": {
-      "description": "Are you sure you want to delete your account? This action cannot be undone."
-    },
-    "removeFriend": {
-      "description": "Are you sure you want to remove this friend? "
-    },
-    "deleteComment": {
-      "description": "Are you sure you want to delete this comment?"
-    },
-    "deleteConversation": {
-      "description": "Are you sure you want to delete this conversation? This action cannot be undone."
-    },
-    "deleteMessage": {
-      "description": "Are you sure you want to delete this message?"
-    },
-    "deleteCollection": {
-      "description": "Are you sure you want to delete this collection? This action cannot be undone."
-    },
-    "removeFromCollection": {
-      "description": "Are you sure you want to remove this post from the collection?"
-    },
-    "deletePost":{
-      "description": "Are you sure you want to delete this Post? This action cannot be undone."
-    },
-    "discardPost": {
-      "description": "Are you sure you want to discard this post?"
-    },
-    "createPost": {
-      "description": "Are you ready to share your post with friends?"
-    },
-    "blockUser": {
-      "description": "Are you sure you want to block this user?"
-    },
-    "discardLetter": {
-      "description": "Are you sure you want to discard this letter? All your progress will be lost."
-    },
-    "sendLetter": {
-      "description": "This letter will be delivered to {{name}} in {{countryFlag}}"
-    }
-  },
-  "report": {
-    "reporting": "Reporting",
-    "user": "User",
-    "post": "Post",
-    "postTitle": "Post Title",
-    "description": "Help us keep our community safe by reporting inappropriate content",
-    "sections": {
-      "issue": "What's the issue?",
-      "details": "Additional Details",
-      "evidence": "Evidence"
-    },
-    "types": {
-      "spam": {
-        "label": "Spam",
-        "description": "Unwanted or repetitive content"
-      },
-      "harassment": {
-        "label": "Harassment",
-        "description": "Bullying or harassment"
-      },
-      "hate_speech": {
-        "label": "Hate Speech",
-        "description": "Hateful or discriminatory content"
-      },
-      "inappropriate_content": {
-        "label": "Inappropriate Content",
-        "description": "Content that violates community guidelines"
-      },
-      "other": {
-        "label": "Other",
-        "description": "Something else"
-      }
-    },
-    "detailsPlaceholder": "Please provide additional details...",
-    "evidenceDescription": "Required: Add a screenshot or other evidence",
-    "addScreenshot": "Add Screenshot",
-    "submitReport": "Submit Report"
-  },
-  "emptyState": {
-    "notifications": "No notifications yet",
-    "userNotFound": "User not found"
-  },
-  "friendRequestSheet": {
-    "title": "Send Friend Request",
-    "message": "Message",
-    "placeholder": "Write a message..."
   },
   "createProfile": {
     "basicInfo": {
@@ -356,7 +218,45 @@
       "infoMessage": "Some information cannot be changed for safety reasons"
     }
   },
-  "onboarding": {
+  "report": {
+    "reporting": "Reporting",
+    "user": "User",
+    "post": "Post",
+    "postTitle": "Post Title",
+    "description": "Help us keep our community safe by reporting inappropriate content",
+    "sections": {
+      "issue": "What's the issue?",
+      "details": "Additional Details",
+      "evidence": "Evidence"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "Unwanted or repetitive content"
+      },
+      "harassment": {
+        "label": "Harassment",
+        "description": "Bullying or harassment"
+      },
+      "hate_speech": {
+        "label": "Hate Speech",
+        "description": "Hateful or discriminatory content"
+      },
+      "inappropriate_content": {
+        "label": "Inappropriate Content",
+        "description": "Content that violates community guidelines"
+      },
+      "other": {
+        "label": "Other",
+        "description": "Something else"
+      }
+    },
+    "detailsPlaceholder": "Please provide additional details...",
+    "evidenceDescription": "Required: Add a screenshot or other evidence",
+    "addScreenshot": "Add Screenshot",
+    "submitReport": "Submit Report"
+  },
+ "onboarding": {
     "readGuidelines": "Read Community Guidelines",
     "globalConnections": {
       "title": "Global Connections",
@@ -375,6 +275,145 @@
     "safeCommunityStandards": "Safe Community Standards",
     "introDescription": "Welcome to WorldFriends! Please read and accept our community guidelines.",
     "agreement": "I Accept the community guidelines"
+  },
+  "supporter": {
+    "title": "Support WorldFriends",
+    "whySectionTitle": "Why Become a Supporter ?",
+    "whySectionDesc": " WorldFriends is a passion project built by a solo developer. Your one-time $2.99 donation helps support ongoing development and ensures that the app remains free and accessible to everyone",
+    "getSection": {
+      "title":  "What You Get",
+      "firstBenefit": "Special supporter heart badge on your profile",
+      "secondBenefit": "Eternal gratitude and supporter status",
+      "thirdBenefit": "Contribute to connecting people worldwide"
+    },
+    "ctaButton": "Become a Supporter - ",
+    "ctaNote": "One-time payment • Powered by RevenueCat",
+    "thankYou": " Thank you for your support! ❤️"
+  },
+  "appInfo": {
+    "sponseredBy": "Proudly Sponsered By",
+    "convexDesc": "The life chaning Reactive Backend as a Service for Software Developers",
+    "aboutApp": "About This Platform",
+    "infoDesc": "WorldFriends is a passion project built by a dedicated student who believes in the power of global connections. This platform brings together people from different cultures, languages, and backgrounds to learn about the world",
+    "getInTouch": "Get In Touch",
+    "footerText": "Made with ❤️ by a student",
+    "appVersion": "© 2025 WorldFriends • Version 1.0.0"
+  },
+  "auth": {
+    "signupTitle": "Create Account",
+    "signupSubTitle": "Join us and start your journey",
+    "loginTitle": "Welcome Back",
+    "loginSubTitle": "Enter your credentials",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "noAccountCTA": "Don't have an account? ",
+    "alreadyHaveAccountCTA": "Already have an account? ",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "verifyEmail": "Verify Email",
+    "enterCode": " Enter the 6-digit code sent to"
+  },
+  "collections":{
+    "create": {
+      "title": "New Collection",
+      "placeholder": "Type Collection name..."
+    }
+  },
+  "comments": {
+    "addComment": "Add a comment...",
+    "reply": "Reply",
+    "replyingTo": "Replying to",
+    "showReply": "Show reply",
+    "hideReply": "Hide reply"
+  },
+  "greetings": {
+    "goodMorning": "Good morning",
+    "goodAfternoon": "Good afternoon",
+    "goodEvening": "Good evening",
+    "goodNight": "Good night"
+  },
+  "filterModal": {
+    "title": "Filters",
+    "country": "Country",
+    "languageSpoken": "Language Spoken",
+    "languageLearning": "Language Learning"
+  },
+  "emptyState": {
+    "notifications": "No notifications yet",
+    "userNotFound": "User not found"
+  },
+  "friendRequestSheet": {
+    "title": "Send Friend Request",
+    "message": "Message",
+    "placeholder": "Write a message..."
+  },
+  "userCard": {
+    "country": "Country",
+    "speaks": "Speaks",
+    "learning": "Learning"
+  },
+  "notifications": {
+    "clearAll": "Clear All",
+    "emptySubtext": "You'll see notifications about friend requests, messages, and other activities here"
+  },
+  "actions": {
+    "composeLetter": "Compose Letter",
+    "writeSomething": "Write Something",
+    "deletePost": "Delete Post",
+    "removeFromCollection": "Remove from Collection",
+    "addToCollection": "Add to Collection",
+    "reportPost": "Report Post",
+    "reportUser": "Report User",
+    "blockUser": "Block User",
+    "removeFriend": "Remove Friend",
+    "deleteConversation": "Delete Conversation",
+    "deleteMessage": "Delete Message",
+    "deleteLetter": "Delete Letter"
+  },
+  "confirmation": {
+    "logout": {
+      "description": "Are you sure you want to logout?"
+    },
+    "deleteAccount": {
+      "description": "Are you sure you want to delete your account? This action cannot be undone."
+    },
+    "removeFriend": {
+      "description": "Are you sure you want to remove this friend? "
+    },
+    "deleteComment": {
+      "description": "Are you sure you want to delete this comment?"
+    },
+    "deleteConversation": {
+      "description": "Are you sure you want to delete this conversation? This action cannot be undone."
+    },
+    "deleteMessage": {
+      "description": "Are you sure you want to delete this message?"
+    },
+    "deleteCollection": {
+      "description": "Are you sure you want to delete this collection? This action cannot be undone."
+    },
+    "removeFromCollection": {
+      "description": "Are you sure you want to remove this post from the collection?"
+    },
+    "deletePost":{
+      "description": "Are you sure you want to delete this Post? This action cannot be undone."
+    },
+    "discardPost": {
+      "description": "Are you sure you want to discard this post?"
+    },
+    "createPost": {
+      "description": "Are you ready to share your post with friends?"
+    },
+    "blockUser": {
+      "description": "Are you sure you want to block this user?"
+    },
+    "discardLetter": {
+      "description": "Are you sure you want to discard this letter? All your progress will be lost."
+    },
+    "sendLetter": {
+      "description": "This letter will be delivered to {{name}} in {{countryFlag}}"
+    }
   },
   "successToasts": {
     "collectionCreated": {
@@ -443,44 +482,6 @@
       "text1": "Photo Library Permission Required",
       "text2": "Please grant photo library permission to select photos"
     }
-  },
-  "supporter": {
-    "title": "Support WorldFriends",
-    "whySectionTitle": "Why Become a Supporter ?",
-    "whySectionDesc": " WorldFriends is a passion project built by a solo developer. Your one-time $2.99 donation helps support ongoing development and ensures that the app remains free and accessible to everyone",
-    "getSection": {
-      "title":  "What You Get",
-      "firstBenefit": "Special supporter heart badge on your profile",
-      "secondBenefit": "Eternal gratitude and supporter status",
-      "thirdBenefit": "Contribute to connecting people worldwide"
-    },
-    "ctaButton": "Become a Supporter - ",
-    "ctaNote": "One-time payment • Powered by RevenueCat",
-    "thankYou": " Thank you for your support! ❤️"
-  },
-  "appInfo": {
-    "sponseredBy": "Proudly Sponsered By",
-    "convexDesc": "The life chaning Reactive Backend as a Service for Software Developers",
-    "aboutApp": "About This Platform",
-    "infoDesc": "WorldFriends is a passion project built by a dedicated student who believes in the power of global connections. This platform brings together people from different cultures, languages, and backgrounds to learn about the world",
-    "getInTouch": "Get In Touch",
-    "footerText": "Made with ❤️ by a student",
-    "appVersion": "© 2025 WorldFriends • Version 1.0.0"
-  },
-  "auth": {
-    "signupTitle": "Create Account",
-    "signupSubTitle": "Join us and start your journey",
-    "loginTitle": "Welcome Back",
-    "loginSubTitle": "Enter your credentials",
-    "email": "Email",
-    "password": "Password",
-    "confirmPassword": "Confirm Password",
-    "noAccountCTA": "Don't have an account? ",
-    "alreadyHaveAccountCTA": "Already have an account? ",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "verifyEmail": "Verify Email",
-    "enterCode": " Enter the 6-digit code sent to"
   },
    "guidelines": {
     "first": {

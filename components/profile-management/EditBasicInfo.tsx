@@ -21,7 +21,7 @@ export const EditBasicInfo: React.FC<EditBasicInfoProps> = ({
   const theme = useTheme();
   const { t } = useTranslation();
   // use query from useProfile hook
-  const profileData = useQuery(api.profiles.getCurrentProfile);
+  const profileData = useQuery(api.users.getCurrentProfile);
 
   // Helper function to format date
   const formatDate = (dateString: string) => {

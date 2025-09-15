@@ -29,11 +29,11 @@ export const useUserDetails = (userId: Id<"users"> | undefined) => {
 
   // Convex queries and mutations
   const userProfile = useQuery(
-    api.userManagement.getUserProfile,
+    api.users.getUserProfile,
     userId && !isBlocking ? { userId } : "skip"
   );
 
-  const blockUserMutation = useMutation(api.userManagement.blockUser);
+  const blockUserMutation = useMutation(api.users.blockUser);
   const sendFriendRequestMutation = useMutation(
     api.friendships.sendFriendRequest
   );

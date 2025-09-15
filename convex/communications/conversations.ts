@@ -1,11 +1,11 @@
 import { v } from "convex/values";
-import { mutation, query } from "./_generated/server";
+import { mutation, query } from "../_generated/server";
 import { paginationOptsValidator } from "convex/server";
-import { Id } from "./_generated/dataModel";
+import { Id } from "../_generated/dataModel";
 import { getAuthUserId } from "@convex-dev/auth/server";
-import { createNotification } from "./userManagement";
-import { areFriends } from "./helpers";
-import { r2 } from "./storage";
+import { createNotification } from "../notifications";
+import { areFriends } from "../helpers";
+import { r2 } from "../storage";
 
 // Helper function to generate conversation group ID
 function generateConversationGroupId(

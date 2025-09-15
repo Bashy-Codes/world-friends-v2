@@ -13,7 +13,7 @@ import { ScreenHeader } from "@/components/ScreenHeader";
 import { LoadingModal } from "@/components/common/LoadingModal";
 import { useEditProfile } from "@/hooks/useEditProfile";
 import { useTranslation } from "react-i18next";
-import { ReliableKeyboardAvoidingView } from "@/components/common/KeyboardHandler";
+import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { Button } from "@/components/ui/Button";
 
 export default function EditProfileScreen() {
@@ -90,7 +90,7 @@ export default function EditProfileScreen() {
       </View>
 
       {/* Wrap ScrollView in KeyboardAvoidingView */}
-      <ReliableKeyboardAvoidingView enabled={true}>
+      <KeyboardHandler enabled={true}>
         {/* Step Content */}
         <ScrollView
           ref={scrollViewRef}
@@ -105,7 +105,7 @@ export default function EditProfileScreen() {
             )}
           </View>
         </ScrollView>
-      </ReliableKeyboardAvoidingView>
+      </KeyboardHandler>
 
       {/* Bottom Button */}
         

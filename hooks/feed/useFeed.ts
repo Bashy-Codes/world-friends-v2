@@ -19,7 +19,7 @@ export const useFeed = () => {
   const postActions = usePostActions();
 
   // Convex mutations
-  const updateLastActive = useMutation(api.profiles.updateLastActive);
+  const updateLastActive = useMutation(api.users.updateLastActive);
 
   // Paginated query for feed posts
   const {

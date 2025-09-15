@@ -27,7 +27,7 @@ export default function SettingsScreen() {
   const { signOut } = useAuthActions();
   const convex = useConvex();
   const { toggleTheme } = useThemeActions();
-  const deleteProfile = useMutation(api.profiles.deleteProfile);
+  const deleteProfile = useMutation(api.users.deleteProfile);
   const languagePickerRef = useRef<LanguagePickerRef>(null);
 
   // Modal states

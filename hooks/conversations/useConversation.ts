@@ -47,9 +47,9 @@ export const useConversation = (conversationGroupId: string) => {
   const [isSending, setIsSending] = useState(false);
 
   // Mutations
-  const markAsReadMutation = useMutation(api.conversations.markAsRead);
-  const deleteMessageMutation = useMutation(api.conversations.deleteMessage);
-  const sendMessageMutation = useMutation(api.conversations.sendMessage);
+  const markAsReadMutation = useMutation(api.communications.conversations.markAsRead);
+  const deleteMessageMutation = useMutation(api.communications.conversations.deleteMessage);
+  const sendMessageMutation = useMutation(api.communications.conversations.sendMessage);
 
   // ===== MESSAGE ACTIONS =====
 
@@ -145,7 +145,7 @@ export const useConversation = (conversationGroupId: string) => {
       try {
         setIsLoadingConversation(true);
         setError(null);
-        const result = await convex.query(api.conversations.getConversationInfo, {
+        const result = await convex.query(api.communications.conversations.getConversationInfo, {
           conversationGroupId,
         });
         setConversationInfo(result);
