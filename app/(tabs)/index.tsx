@@ -56,6 +56,9 @@ export default function HomeTab() {
     renderRemoveConfirmationModal,
   } = useFeed();
 
+
+  console.log(posts)
+
   const renderPost = useCallback(
     ({ item }: { item: PostTypes }) => (
       <PostCard

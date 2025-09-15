@@ -49,8 +49,8 @@ export default function SettingsScreen() {
     router.push("/screens/edit-profile");
   }, []);
 
-  const handleDonatePress = useCallback(() => {
-    router.push("/screens/donation");
+  const handleSupportPress = useCallback(() => {
+    router.push("/screens/support");
   }, []);
 
   const handleContactPress = () => {
@@ -265,7 +265,7 @@ export default function SettingsScreen() {
             title={t("settings.supportApp.title")}
             description={t("settings.supportApp.description")}
             type="navigation"
-            onPress={handleDonatePress}
+            onPress={handleSupportPress}
           />
 
           <ActionItem

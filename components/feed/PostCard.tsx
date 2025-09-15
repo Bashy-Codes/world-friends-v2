@@ -49,12 +49,6 @@ const PostCardComponent: React.FC<PostCardProps> = ({
     setShowAddReactionModal(false);
   }, []);
 
-
-
-  const handleComment = useCallback(() => {
-    onComment(post.postId);
-  }, [post.postId, onComment]);
-
   const handleUserPress = useCallback(() => {
     onUserPress?.(post.postAuthor.userId, post.isOwner, post.postAuthor.isAdmin || false);
   }, [post.postAuthor.userId, post.isOwner, post.postAuthor.isAdmin, onUserPress]);

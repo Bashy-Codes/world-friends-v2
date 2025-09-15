@@ -16,7 +16,7 @@ export default function ScreensLayout() {
       <Stack.Screen name="letter/[id]" options={{ headerShown: false }} />
       <Stack.Screen name="compose-letter" options={{ headerShown: false }} />
       <Stack.Screen name="otp-verification" options={{ headerShown: false }} />
-      <Stack.Screen name="donation" options={{ headerShown: false }} />
+      <Stack.Screen name="support" options={{ headerShown: false }} />
     </Stack>
   );
 }

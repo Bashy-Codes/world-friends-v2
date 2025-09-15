@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, ScrollView, Platform } from "react-native";
+import { View, Text, StyleSheet, ScrollView, Platform, TouchableOpacity, Linking } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useTheme } from "@/lib/Theme";
@@ -10,7 +10,7 @@ import { useRevenueCat } from "@/hooks/useRevenueCat";
 import Toast from "react-native-toast-message";
 import { useTranslation } from "react-i18next";
 
-export default function SupporterScreen() {
+export default function SupportScreen() {
     const theme = useTheme();
     const { t } = useTranslation();
 
@@ -26,7 +26,7 @@ export default function SupporterScreen() {
         restoreUserPurchases,
     } = useRevenueCat();
 
-    const handleDonate = async () => {
+    const handleSupport = async () => {
         if (Platform.OS === 'web') {
             // Show message for web users
             Toast.show({
@@ -62,6 +62,11 @@ export default function SupporterScreen() {
 
         await restoreUserPurchases();
     };
+
+      const handleRevenueCatPress = () => {
+        Linking.openURL("https://www.revenuecat.com/");
+      };
+    
 
     // Get package price for display
     const packagePrice = supporterPackage?.product.priceString;
@@ -129,12 +134,14 @@ export default function SupporterScreen() {
                     <Button
                         iconName="heart"
                         text={t("supporter.ctaButton") + packagePrice}
-                        onPress={handleDonate}
+                        onPress={handleSupport}
                         disabled={isPurchasing || isRestoring}
                     />
+                    <TouchableOpacity activeOpacity={0.8} onPress={handleRevenueCatPress}>
                     <Text style={[styles.ctaNote, { color: theme.colors.textMuted }]}>
                         {t("supporter.ctaNote")}
                     </Text>
+                    </TouchableOpacity>
                 </View>
 
                 {/* Footer */}

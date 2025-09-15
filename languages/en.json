@@ -287,7 +287,7 @@
       "thirdBenefit": "Contribute to connecting people worldwide"
     },
     "ctaButton": "Become a Supporter - ",
-    "ctaNote": "One-time payment • Powered by RevenueCat",
+    "ctaNote": "One-time payment • Powered by RevenueCat 🐱",
     "thankYou": " Thank you for your support! ❤️"
   },
   "appInfo": {
@@ -483,88 +483,6 @@
       "text2": "Please grant photo library permission to select photos"
     }
   },
-   "guidelines": {
-    "first": {
-      "title": "Be Respectful to Others",
-      "description": "Treat all community members with kindness, respect, and dignity. No harassment, bullying, or discriminatory behavior will be tolerated."
-    },
-    "second": {
-      "title": "No Dating or Flirty Behavior",
-      "description": "This platform is designed for friendship and cultural exchange only. Romantic advances or dating requests are not appropriate."
-    },
-    "third": {
-      "title": "No In-Person Meetings",
-      "description": "For your safety, do not arrange to meet other users in person. Keep all interactions within the app's safe environment."
-    },
-    "fourth": {
-      "title": "Protect Personal Information",
-      "description": "Never share personal details like your full name, address, phone number, financial information, or other sensitive data."
-    },
-    "fifth": {
-      "title": "Use Appropriate Language",
-      "description": "Keep conversations clean and family-friendly. Profanity, explicit content, or offensive language is strictly prohibited."
-    },
-    "sixth": {
-      "title": "Report Inappropriate Behavior",
-      "description": "If you encounter any violations of these guidelines, please report them immediately to help maintain a safe community."
-    },
-    "seventh": {
-      "title": "Be Authentic",
-      "description": "Use your real photos and provide honest information about yourself. Fake profiles and catfishing are not allowed."
-    },
-    "eighth": {
-      "title": "Respect Cultural Differences",
-      "description": "Embrace diversity and be open to learning about different cultures, traditions, and perspectives with an open mind."
-    },
-    "ninth": {
-      "title": "No Spam or Self-Promotion",
-      "description": "Don't send repetitive messages, advertisements, or promote external services, websites, or social media accounts."
-    },
-    "tenth": {
-      "title": "Keep Conversations Meaningful",
-      "description": "Engage in genuine conversations focused on friendship, language learning, and cultural exchange rather than superficial interactions."
-    },
-    "eleventh": {
-      "title": "Respect Privacy Settings",
-      "description": "Honor other users' privacy preferences and boundaries. Don't pressure anyone to share more than they're comfortable with."
-    },
-    "twelfth": {
-      "title": "No Commercial Activities",
-      "description": "This platform is not for business transactions, selling products, or any commercial activities. Keep interactions social and friendly."
-    },
-    "thirteenth": {
-      "title": "Use Features Responsibly",
-      "description": "Use all app features as intended. Don't exploit or misuse any functionality for purposes other than genuine friendship building."
-    },
-    "fourteenth": {
-      "title": "Be Patient with Language Learners",
-      "description": "Show understanding and patience when communicating with users who are learning your language. Help them improve with kindness."
-    },
-    "fifteenth": {
-      "title": "No Hate Speech or Discrimination",
-      "description": "Any form of hate speech, racism, sexism, or discrimination based on religion, nationality, or personal characteristics is forbidden."
-    },
-    "sixteenth": {
-      "title": "Maintain Age-Appropriate Interactions",
-      "description": "Ensure all conversations and shared content are appropriate for users of all ages in our diverse community."
-    },
-    "seventeenth": {
-      "title": "No Sharing of External Contacts",
-      "description": "Don't share or request external contact information like email, social media handles, or messaging app details."
-    },
-    "eighteenth": {
-      "title": "Respect Time Zones and Availability",
-      "description": "Be mindful that users are from different time zones. Don't expect immediate responses and respect others' availability."
-    },
-    "nineteenth": {
-      "title": "Keep Photos Appropriate",
-      "description": "Share only appropriate, non-suggestive photos. Profile pictures should clearly show your face and be suitable for all audiences."
-    },
-    "twentieth": {
-      "title": "Follow Local Laws",
-      "description": "Ensure all your activities on the platform comply with local laws and regulations in your country and region."
-    }
-   },
   "notification": {
     "friend_request_sent": "{{senderName}} sent you a friend request from {{country}}",
     "friend_request_accepted": "{{senderName}} from {{country}} accepted your friend request",
