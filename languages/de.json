@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "Start",
+    "discover": "Entdecken",
+    "conversations": "Chats",
+    "profile": "Profil"
+  },
+  "screenTitle": {
+    "postDetails": "Beitrag",
+    "createPost": "Beitrag erstellen",
+    "notifications": "Mitteilungen",
+    "report": "Melden",
+    "settings": "Einstellungen"
+  },
+  "common": {
+    "genders": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "other": "Andere"
+    },
+    "searchPlaceholder": "Suchen...",
+    "loading": "Lädt..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "Guten Morgen",
+      "goodAfternoon": "Guten Tag",
+      "goodEvening": "Guten Abend",
+      "goodNight": "Gute Nacht"
+    },
+    "writeSomething": "Was denkst du?"
+  },
+  "discover": {
+    "filter": {
+      "title": "Filter",
+      "country": "Land",
+      "languageSpoken": "Gesprochene Sprache",
+      "languageLearning": "Lernsprache"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Einstellungen",
+      "settingsDescription": "Konto und Einstellungen verwalten",
+      "addFriend": "Freund hinzufügen",
+      "pendingRequest": "Anfrage läuft"
+    },
+    "items": {
+      "aboutMe": "Über mich",
+      "languages": "Sprachen",
+      "travel": "Reisen",
+      "hobbies": "Hobbys",
+      "books": "Bücher"
+    },
+    "subsections": {
+      "speaking": "Spreche",
+      "learning": "Lerne",
+      "visited": "Besucht",
+      "wantToVisit": "Möchte besuchen"
+    },
+    "restriction": {
+      "posts": "Beiträge sind privat",
+      "collections": "Sammlungen sind privat"
+    }
+  },
+  "createPost": {
+    "placeholder": "Was beschäftigt dich?",
+    "imageSection": {
+      "title": "Bilder hinzufügen"
+    }
+  },
+  "collections": {
+    "newButton": "Neue Sammlung",
+    "post": "Beitrag",
+    "posts": "Beiträge",
+    "viewCollection": "Sammlung ansehen"
+  },
+  "comments": {
+    "addComment": "Kommentar hinzufügen...",
+    "reply": "Antworten",
+    "replyingTo": "Antwort an",
+    "showReply": "Antwort zeigen",
+    "hideReply": "Antwort ausblenden"
+  },
+  "userCard": {
+    "country": "Land",
+    "speaks": "Spricht",
+    "learning": "Lernt"
+  },
+  "actions": {
+    "delete": "Löschen"
+  },
+  "notifications": {
+    "clearAll": "Alle löschen",
+    "emptySubtext": "Hier siehst du Benachrichtigungen zu Freundschaftsanfragen und Aktivitäten"
+  },
+  "letters": {
+    "title": "Briefe"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Profil",
+      "preferences": "Einstellungen",
+      "account": "Konto",
+      "platformInfo": "Plattform-Info"
+    },
+    "editProfile": {
+      "title": "Profil bearbeiten",
+      "description": "Profilinformationen aktualisieren"
+    },
+    "theme": {
+      "title": "Design"
+    },
+    "language": {
+      "title": "Sprache",
+      "description": "Bevorzugte Sprache wählen"
+    },
+    "logout": {
+      "title": "Abmelden",
+      "description": "Aus dem Konto abmelden"
+    },
+    "deleteAccount": {
+      "title": "Konto löschen",
+      "description": "Konto dauerhaft löschen"
+    },
+    "platformInfo": {
+      "title": "Plattform-Info",
+      "description": "Mehr über unsere Plattform erfahren"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "Abmelden",
+      "description": "Möchtest du dich wirklich abmelden?"
+    },
+    "deleteAccount": {
+      "title": "Konto löschen",
+      "description": "Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    "removeFriend": {
+      "title": "Freund entfernen",
+      "description": "Möchtest du diesen Freund wirklich entfernen?"
+    },
+    "deleteComment": {
+      "title": "Kommentar löschen",
+      "description": "Möchtest du diesen Kommentar löschen?"
+    },
+    "deleteConversation": {
+      "title": "Chat löschen",
+      "description": "Möchtest du diesen Chat löschen?"
+    },
+    "deleteMessage": {
+      "title": "Nachricht löschen",
+      "description": "Möchtest du diese Nachricht löschen?"
+    },
+    "discardPost": {
+      "title": "Beitrag verwerfen",
+      "description": "Möchtest du diesen Beitrag verwerfen?"
+    },
+    "createPost": {
+      "title": "Beitrag erstellen",
+      "description": "Möchtest du diesen Beitrag erstellen?"
+    },
+    "blockUser": {
+      "title": "Nutzer blockieren",
+      "description": "Möchtest du diesen Nutzer blockieren?"
+    }
+  },
+  "report": {
+    "reporting": "Melden",
+    "user": "Nutzer",
+    "post": "Beitrag",
+    "postTitle": "Beitragstitel",
+    "description": "Beschreibung",
+    "sections": {
+      "issue": "Was ist das Problem?",
+      "details": "Weitere Details",
+      "evidence": "Nachweis"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "Unerwünschte Inhalte"
+      },
+      "harassment": {
+        "label": "Belästigung",
+        "description": "Mobbing oder Belästigung"
+      },
+      "hate_speech": {
+        "label": "Hassrede",
+        "description": "Hasserfüllte Inhalte"
+      },
+      "inappropriate_content": {
+        "label": "Unangemessen",
+        "description": "Verstößt gegen Richtlinien"
+      },
+      "other": {
+        "label": "Anderes",
+        "description": "Etwas anderes"
+      }
+    },
+    "detailsPlaceholder": "Bitte weitere Details angeben...",
+    "evidenceDescription": "Optional: Screenshot hinzufügen",
+    "addScreenshot": "Screenshot hinzufügen",
+    "submitReport": "Meldung senden"
+  },
+  "emptyState": {
+    "notifications": "Noch keine Mitteilungen",
+    "userNotFound": "Nutzer nicht gefunden"
+  },
+  "friendRequestSheet": {
+    "title": "Freundschaftsanfrage senden",
+    "message": "Nachricht",
+    "placeholder": "Nachricht schreiben..."
+  },
+  "createProfile": {
+    "backButton": "Zurück",
+    "steps": {
+      "travelInterests": "Reisen & Interessen"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Namen eingeben"
+      },
+      "username": {
+        "label": "Benutzername",
+        "placeholder": "Benutzername wählen",
+        "available": "Verfügbar",
+        "taken": "Bereits vergeben"
+      },
+      "birthdate": {
+        "label": "Geburtsdatum",
+        "placeholder": "Geburtsdatum wählen"
+      },
+      "gender": {
+        "label": "Geschlecht"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "Land",
+        "placeholder": "Land auswählen"
+      },
+      "spokenLanguages": {
+        "label": "Gesprochene Sprachen",
+        "placeholder": "Sprachen auswählen"
+      },
+      "learningLanguages": {
+        "label": "Lernsprachen",
+        "placeholder": "Lernsprachen auswählen"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "Profilbild",
+        "description": "Foto hinzufügen",
+        "addPhoto": "Foto hinzufügen",
+        "changePhoto": "Foto ändern"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Erzähle von dir..."
+      },
+      "hobbies": {
+        "label": "Hobbys & Interessen",
+        "placeholder": "Was machst du gerne?"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Besuchte Länder",
+        "placeholder": "Besuchte Länder auswählen"
+      },
+      "wantToVisitCountries": {
+        "label": "Reiseziele",
+        "placeholder": "Gewünschte Reiseziele"
+      },
+      "favoriteBooks": {
+        "label": "Lieblingsbücher",
+        "placeholder": "Lieblingsbücher teilen"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "Profil überprüfen",
+      "reviewDescription": "Alles korrekt?",
+      "genderPreference": {
+        "label": "Geschlechtspräferenz",
+        "enabled": "Nur bestimmte Geschlechter",
+        "disabled": "Alle Geschlechter"
+      },
+      "safetyInfo": {
+        "ageRestriction": "Nur Nutzer in ähnlichem Alter",
+        "genderPreference": "Nach Geschlecht filtern"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Einige Daten können nicht geändert werden"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "Richtlinien lesen",
+    "globalConnections": {
+      "title": "Globale Verbindungen",
+      "description": "Mit Menschen weltweit verbinden"
+    },
+    "languageExchange": {
+      "title": "Sprachaustausch",
+      "description": "Mit Muttersprachlern üben"
+    },
+    "culturalDiscovery": {
+      "title": "Kulturentdeckung",
+      "description": "Verschiedene Kulturen kennenlernen"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "Community-Richtlinien",
+    "safeCommunityStandards": "Sichere Community-Standards",
+    "introDescription": "Willkommen bei WorldFriends! Bitte lies unsere Richtlinien.",
+    "accept": "Ich akzeptiere",
+    "continue": "Weiter"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "Sprache geändert",
+      "text2": "Spracheinstellung wurde aktualisiert"
+    },
+    "loggedOut": {
+      "text1": "Abgemeldet",
+      "text2": "Du wurdest erfolgreich abgemeldet"
+    },
+    "accountDeleted": {
+      "text1": "Konto gelöscht",
+      "text2": "Dein Konto wurde dauerhaft gelöscht"
+    },
+    "reportSubmitted": {
+      "text1": "Meldung gesendet",
+      "text2": "Danke für deine Hilfe"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Fehler",
+      "text2": "Etwas ist schiefgelaufen. Bitte erneut versuchen."
+    },
+    "validationError": {
+      "text1": "Eingabefehler",
+      "text2": "Bitte Eingabe überprüfen"
+    },
+    "cameraPermission": {
+      "text1": "Kamera-Berechtigung erforderlich",
+      "text2": "Bitte Kamera-Zugriff erlauben"
+    },
+    "photoLibraryPermission": {
+      "text1": "Fotobibliothek-Berechtigung erforderlich",
+      "text2": "Bitte Fotobibliothek-Zugriff erlauben"
+    }
+  }
+}

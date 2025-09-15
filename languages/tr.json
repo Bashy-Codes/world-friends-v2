@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "Ana Sayfa",
+    "discover": "Keşfet",
+    "conversations": "Sohbetler",
+    "profile": "Profil"
+  },
+  "screenTitle": {
+    "postDetails": "Gönderi",
+    "createPost": "Oluştur",
+    "notifications": "Bildirimler",
+    "report": "Şikayet",
+    "settings": "Ayarlar"
+  },
+  "common": {
+    "genders": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer"
+    },
+    "searchPlaceholder": "Ara...",
+    "loading": "Yükleniyor..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "Günaydın",
+      "goodAfternoon": "İyi günler",
+      "goodEvening": "İyi akşamlar",
+      "goodNight": "İyi geceler"
+    },
+    "writeSomething": "Neler düşünüyorsun?"
+  },
+  "discover": {
+    "filter": {
+      "title": "Filtreler",
+      "country": "Ülke",
+      "languageSpoken": "Konuşulan dil",
+      "languageLearning": "Öğrenilen dil"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Ayarlar",
+      "settingsDescription": "Hesap ve tercihleri yönet",
+      "addFriend": "Arkadaş ekle",
+      "pendingRequest": "Beklemede"
+    },
+    "items": {
+      "aboutMe": "Hakkımda",
+      "languages": "Diller",
+      "travel": "Seyahat",
+      "hobbies": "Hobiler",
+      "books": "Kitaplar"
+    },
+    "subsections": {
+      "speaking": "Konuşuyor",
+      "learning": "Öğreniyor",
+      "visited": "Ziyaret etti",
+      "wantToVisit": "Ziyaret etmek istiyor"
+    },
+    "restriction": {
+      "posts": "Gönderiler özel",
+      "collections": "Koleksiyonlar özel"
+    }
+  },
+  "createPost": {
+    "placeholder": "Neler düşünüyorsun?",
+    "imageSection": {
+      "title": "Fotoğraf ekle"
+    }
+  },
+  "collections": {
+    "newButton": "Yeni koleksiyon",
+    "post": "gönderi",
+    "posts": "gönderi",
+    "viewCollection": "Koleksiyonu görüntüle"
+  },
+  "comments": {
+    "addComment": "Yorum ekle...",
+    "reply": "Yanıtla",
+    "replyingTo": "Yanıtlanıyor",
+    "showReply": "Yanıtı göster",
+    "hideReply": "Yanıtı gizle"
+  },
+  "userCard": {
+    "country": "Ülke",
+    "speaks": "Konuşuyor",
+    "learning": "Öğreniyor"
+  },
+  "actions": {
+    "delete": "Sil"
+  },
+  "notifications": {
+    "clearAll": "Tümünü temizle",
+    "emptySubtext": "Burada arkadaşlık istekleri ve aktivite bildirimleri görünecek"
+  },
+  "letters": {
+    "title": "Mektuplar"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Profil",
+      "preferences": "Tercihler",
+      "account": "Hesap",
+      "platformInfo": "Platform bilgisi"
+    },
+    "editProfile": {
+      "title": "Profili düzenle",
+      "description": "Profil bilgilerini güncelle"
+    },
+    "theme": {
+      "title": "Tema"
+    },
+    "language": {
+      "title": "Dil",
+      "description": "Tercih edilen dili seç"
+    },
+    "logout": {
+      "title": "Çıkış yap",
+      "description": "Hesaptan çık"
+    },
+    "deleteAccount": {
+      "title": "Hesabı sil",
+      "description": "Hesabı kalıcı olarak sil"
+    },
+    "platformInfo": {
+      "title": "Platform bilgisi",
+      "description": "Platformumuz hakkında daha fazla bilgi"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "Çıkış yap",
+      "description": "Çıkış yapmak istediğinizden emin misiniz?"
+    },
+    "deleteAccount": {
+      "title": "Hesabı sil",
+      "description": "Bu işlem geri alınamaz."
+    },
+    "removeFriend": {
+      "title": "Arkadaşı kaldır",
+      "description": "Bu arkadaşı kaldırmak istediğinizden emin misiniz?"
+    },
+    "deleteComment": {
+      "title": "Yorumu sil",
+      "description": "Bu yorumu silmek istediğinizden emin misiniz?"
+    },
+    "deleteConversation": {
+      "title": "Sohbeti sil",
+      "description": "Bu sohbeti silmek istediğinizden emin misiniz?"
+    },
+    "deleteMessage": {
+      "title": "Mesajı sil",
+      "description": "Bu mesajı silmek istediğinizden emin misiniz?"
+    },
+    "discardPost": {
+      "title": "Gönderiyi iptal et",
+      "description": "Bu gönderiyi iptal etmek istediğinizden emin misiniz?"
+    },
+    "createPost": {
+      "title": "Gönderi oluştur",
+      "description": "Bu gönderiyi oluşturmak istediğinizden emin misiniz?"
+    },
+    "blockUser": {
+      "title": "Kullanıcıyı engelle",
+      "description": "Bu kullanıcıyı engellemek istediğinizden emin misiniz?"
+    }
+  },
+  "report": {
+    "reporting": "Şikayet",
+    "user": "Kullanıcı",
+    "post": "Gönderi",
+    "postTitle": "Gönderi başlığı",
+    "description": "Açıklama",
+    "sections": {
+      "issue": "Sorun nedir?",
+      "details": "Ek detaylar",
+      "evidence": "Kanıt"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "İstenmeyen içerik"
+      },
+      "harassment": {
+        "label": "Taciz",
+        "description": "Zorbalık veya taciz"
+      },
+      "hate_speech": {
+        "label": "Nefret söylemi",
+        "description": "Nefret içeriği"
+      },
+      "inappropriate_content": {
+        "label": "Uygunsuz içerik",
+        "description": "Topluluk kurallarını ihlal ediyor"
+      },
+      "other": {
+        "label": "Diğer",
+        "description": "Başka bir şey"
+      }
+    },
+    "detailsPlaceholder": "Lütfen detay verin...",
+    "evidenceDescription": "İsteğe bağlı: Ekran görüntüsü ekle",
+    "addScreenshot": "Ekran görüntüsü ekle",
+    "submitReport": "Şikayeti gönder"
+  },
+  "emptyState": {
+    "notifications": "Bildirim yok",
+    "userNotFound": "Kullanıcı bulunamadı"
+  },
+  "friendRequestSheet": {
+    "title": "Arkadaşlık isteği",
+    "message": "Mesaj",
+    "placeholder": "Mesaj yaz..."
+  },
+  "createProfile": {
+    "backButton": "Geri",
+    "steps": {
+      "travelInterests": "Seyahat ve İlgi Alanları"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "Tam ad",
+        "placeholder": "Adınızı girin"
+      },
+      "username": {
+        "label": "Kullanıcı adı",
+        "placeholder": "Kullanıcı adı seçin",
+        "available": "Müsait",
+        "taken": "Alınmış"
+      },
+      "birthdate": {
+        "label": "Doğum tarihi",
+        "placeholder": "Tarih seçin"
+      },
+      "gender": {
+        "label": "Cinsiyet"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "Ülke",
+        "placeholder": "Ülke seçin"
+      },
+      "spokenLanguages": {
+        "label": "Konuştuğum diller",
+        "placeholder": "Dilleri seçin"
+      },
+      "learningLanguages": {
+        "label": "Öğrendiğim diller",
+        "placeholder": "Dilleri seçin"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "Profil fotoğrafı",
+        "description": "Fotoğraf ekle",
+        "addPhoto": "Fotoğraf ekle",
+        "changePhoto": "Fotoğrafı değiştir"
+      },
+      "bio": {
+        "label": "Biyografi",
+        "placeholder": "Kendinizden bahsedin..."
+      },
+      "hobbies": {
+        "label": "Hobiler ve İlgi Alanları",
+        "placeholder": "Ne yapmayı seviyorsunuz?"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Ziyaret edilen ülkeler",
+        "placeholder": "Ziyaret ettiğiniz ülkeleri seçin"
+      },
+      "wantToVisitCountries": {
+        "label": "Gitmek istenen yerler",
+        "placeholder": "Nereye gitmek istiyorsunuz?"
+      },
+      "favoriteBooks": {
+        "label": "Favori kitaplar",
+        "placeholder": "Favori kitaplarınızı paylaşın"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "Profili gözden geçir",
+      "reviewDescription": "Her şey doğru mu?",
+      "genderPreference": {
+        "label": "Cinsiyet tercihi",
+        "enabled": "Sadece belirli cinsiyetler",
+        "disabled": "Tüm cinsiyetler"
+      },
+      "safetyInfo": {
+        "ageRestriction": "Sadece benzer yaştaki kullanıcılar",
+        "genderPreference": "Cinsiyete göre filtrele"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Bazı bilgiler değiştirilemez"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "Kuralları oku",
+    "globalConnections": {
+      "title": "Küresel bağlantılar",
+      "description": "Dünyanın her yerinden insanlarla bağlan"
+    },
+    "languageExchange": {
+      "title": "Dil değişimi",
+      "description": "Ana dil konuşanlarıyla pratik yap"
+    },
+    "culturalDiscovery": {
+      "title": "Kültürel keşif",
+      "description": "Farklı kültürleri öğren"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "Topluluk kuralları",
+    "safeCommunityStandards": "Güvenlik standartları",
+    "introDescription": "WorldFriends'e hoş geldiniz! Lütfen kurallarımızı okuyun.",
+    "accept": "Kabul ediyorum",
+    "continue": "Devam et"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "Dil değiştirildi",
+      "text2": "Dil tercihi güncellendi"
+    },
+    "loggedOut": {
+      "text1": "Çıkış yapıldı",
+      "text2": "Başarıyla çıkış yaptınız"
+    },
+    "accountDeleted": {
+      "text1": "Hesap silindi",
+      "text2": "Hesabınız kalıcı olarak silindi"
+    },
+    "reportSubmitted": {
+      "text1": "Şikayet gönderildi",
+      "text2": "Yardımınız için teşekkürler"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Hata",
+      "text2": "Bir şeyler ters gitti. Tekrar deneyin."
+    },
+    "validationError": {
+      "text1": "Doğrulama hatası",
+      "text2": "Lütfen girişinizi kontrol edin"
+    },
+    "cameraPermission": {
+      "text1": "Kamera izni gerekli",
+      "text2": "Lütfen kamera erişimine izin verin"
+    },
+    "photoLibraryPermission": {
+      "text1": "Fotoğraf izni gerekli",
+      "text2": "Lütfen fotoğraf erişimine izin verin"
+    }
+  }
+}

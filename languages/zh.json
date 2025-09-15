@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "首页",
+    "discover": "发现",
+    "conversations": "聊天",
+    "profile": "个人资料"
+  },
+  "screenTitle": {
+    "postDetails": "帖子",
+    "createPost": "创建帖子",
+    "notifications": "通知",
+    "report": "举报",
+    "settings": "设置"
+  },
+  "common": {
+    "genders": {
+      "male": "男性",
+      "female": "女性",
+      "other": "其他"
+    },
+    "searchPlaceholder": "搜索...",
+    "loading": "加载中..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "早上好",
+      "goodAfternoon": "下午好",
+      "goodEvening": "晚上好",
+      "goodNight": "晚安"
+    },
+    "writeSomething": "分享你的想法"
+  },
+  "discover": {
+    "filter": {
+      "title": "筛选",
+      "country": "国家",
+      "languageSpoken": "会说的语言",
+      "languageLearning": "学习的语言"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "设置",
+      "settingsDescription": "管理账户和偏好设置",
+      "addFriend": "添加好友",
+      "pendingRequest": "待处理请求"
+    },
+    "items": {
+      "aboutMe": "关于我",
+      "languages": "语言",
+      "travel": "旅行",
+      "hobbies": "兴趣爱好",
+      "books": "书籍"
+    },
+    "subsections": {
+      "speaking": "会说",
+      "learning": "学习中",
+      "visited": "已访问",
+      "wantToVisit": "想去"
+    },
+    "restriction": {
+      "posts": "此用户的帖子为私密",
+      "collections": "此用户的收藏为私密"
+    }
+  },
+  "createPost": {
+    "placeholder": "分享你在想什么？",
+    "imageSection": {
+      "title": "添加图片"
+    }
+  },
+  "collections": {
+    "newButton": "新收藏",
+    "post": "帖子",
+    "posts": "帖子",
+    "viewCollection": "查看收藏"
+  },
+  "comments": {
+    "addComment": "添加评论...",
+    "reply": "回复",
+    "replyingTo": "回复",
+    "showReply": "显示回复",
+    "hideReply": "隐藏回复"
+  },
+  "userCard": {
+    "country": "国家",
+    "speaks": "会说",
+    "learning": "学习中"
+  },
+  "actions": {
+    "delete": "删除"
+  },
+  "notifications": {
+    "clearAll": "全部清除",
+    "emptySubtext": "这里将显示好友请求、消息和其他活动的通知"
+  },
+  "letters": {
+    "title": "信件"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "个人资料",
+      "preferences": "偏好设置",
+      "account": "账户",
+      "platformInfo": "平台信息"
+    },
+    "editProfile": {
+      "title": "编辑个人资料",
+      "description": "更新您的个人资料信息和偏好设置"
+    },
+    "theme": {
+      "title": "主题"
+    },
+    "language": {
+      "title": "语言",
+      "description": "选择您的首选语言"
+    },
+    "logout": {
+      "title": "登出",
+      "description": "退出您的账户"
+    },
+    "deleteAccount": {
+      "title": "删除账户",
+      "description": "永久删除您的账户和数据"
+    },
+    "platformInfo": {
+      "title": "平台信息",
+      "description": "了解更多关于我们的平台和指导原则"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "登出",
+      "description": "您确定要登出吗？"
+    },
+    "deleteAccount": {
+      "title": "删除账户",
+      "description": "此操作无法撤销。您确定要删除吗？"
+    },
+    "removeFriend": {
+      "title": "删除好友",
+      "description": "您确定要删除这位好友吗？"
+    },
+    "deleteComment": {
+      "title": "删除评论",
+      "description": "您确定要删除此评论吗？"
+    },
+    "deleteConversation": {
+      "title": "删除对话",
+      "description": "您确定要删除此对话吗？"
+    },
+    "deleteMessage": {
+      "title": "删除消息",
+      "description": "您确定要删除此消息吗？"
+    },
+    "discardPost": {
+      "title": "丢弃帖子",
+      "description": "您确定要丢弃此帖子吗？"
+    },
+    "createPost": {
+      "title": "创建帖子",
+      "description": "您确定要创建此帖子吗？"
+    },
+    "blockUser": {
+      "title": "屏蔽用户",
+      "description": "您确定要屏蔽此用户吗？"
+    }
+  },
+  "report": {
+    "reporting": "举报",
+    "user": "用户",
+    "post": "帖子",
+    "postTitle": "帖子标题",
+    "description": "描述",
+    "sections": {
+      "issue": "问题是什么？",
+      "details": "其他详细信息",
+      "evidence": "证据"
+    },
+    "types": {
+      "spam": {
+        "label": "垃圾信息",
+        "description": "不需要或重复的内容"
+      },
+      "harassment": {
+        "label": "骚扰",
+        "description": "霸凌或骚扰行为"
+      },
+      "hate_speech": {
+        "label": "仇恨言论",
+        "description": "仇恨或歧视性内容"
+      },
+      "inappropriate_content": {
+        "label": "不当内容",
+        "description": "违反社区准则的内容"
+      },
+      "other": {
+        "label": "其他",
+        "description": "其他问题"
+      }
+    },
+    "detailsPlaceholder": "请提供其他详细信息...",
+    "evidenceDescription": "可选：添加截图或其他证据",
+    "addScreenshot": "添加截图",
+    "submitReport": "提交举报"
+  },
+  "emptyState": {
+    "notifications": "暂无通知",
+    "userNotFound": "未找到用户"
+  },
+  "friendRequestSheet": {
+    "title": "发送好友请求",
+    "message": "消息",
+    "placeholder": "写个消息..."
+  },
+  "createProfile": {
+    "backButton": "返回",
+    "steps": {
+      "travelInterests": "旅行和兴趣"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "全名",
+        "placeholder": "输入您的全名"
+      },
+      "username": {
+        "label": "用户名",
+        "placeholder": "选择用户名",
+        "available": "用户名可用",
+        "taken": "用户名已被使用"
+      },
+      "birthdate": {
+        "label": "出生日期",
+        "placeholder": "选择您的出生日期"
+      },
+      "gender": {
+        "label": "性别"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "国家",
+        "placeholder": "选择您的国家"
+      },
+      "spokenLanguages": {
+        "label": "我会说的语言",
+        "placeholder": "选择您会说的语言"
+      },
+      "learningLanguages": {
+        "label": "我正在学习的语言",
+        "placeholder": "选择您正在学习的语言"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "头像",
+        "description": "添加一张照片帮助其他人认识您",
+        "addPhoto": "添加照片",
+        "changePhoto": "更换照片"
+      },
+      "bio": {
+        "label": "个人简介",
+        "placeholder": "告诉其他人关于您的信息..."
+      },
+      "hobbies": {
+        "label": "兴趣爱好",
+        "placeholder": "您喜欢做什么？"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "我访问过的国家",
+        "placeholder": "选择您访问过的国家"
+      },
+      "wantToVisitCountries": {
+        "label": "我想访问的国家",
+        "placeholder": "选择您想访问的国家"
+      },
+      "favoriteBooks": {
+        "label": "最喜欢的书",
+        "placeholder": "分享您最喜欢的书"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "检查您的个人资料",
+      "reviewDescription": "在创建个人资料之前确保一切正确",
+      "genderPreference": {
+        "label": "好友性别偏好",
+        "enabled": "仅显示特定性别",
+        "disabled": "显示所有性别"
+      },
+      "safetyInfo": {
+        "ageRestriction": "您只能与年龄相差5岁以内的用户联系",
+        "genderPreference": "您可以根据性别偏好筛选好友"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "出于安全考虑，某些信息无法更改"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "阅读社区准则",
+    "globalConnections": {
+      "title": "全球连接",
+      "description": "与世界各地的人们建立联系"
+    },
+    "languageExchange": {
+      "title": "语言交换",
+      "description": "与母语者练习语言"
+    },
+    "culturalDiscovery": {
+      "title": "文化发现",
+      "description": "了解不同的文化和传统"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "社区准则",
+    "safeCommunityStandards": "安全社区标准",
+    "introDescription": "欢迎来到WorldFriends！请阅读并接受我们的社区准则。",
+    "accept": "我接受",
+    "continue": "继续"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "语言已更改",
+      "text2": "您的语言偏好已更新"
+    },
+    "loggedOut": {
+      "text1": "已登出",
+      "text2": "您已成功登出"
+    },
+    "accountDeleted": {
+      "text1": "账户已删除",
+      "text2": "您的账户已永久删除"
+    },
+    "reportSubmitted": {
+      "text1": "举报已提交",
+      "text2": "感谢您帮助保持社区安全"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "错误",
+      "text2": "出现问题，请重试。"
+    },
+    "validationError": {
+      "text1": "验证错误",
+      "text2": "请检查您的输入并重试"
+    },
+    "cameraPermission": {
+      "text1": "需要相机权限",
+      "text2": "请授予相机权限以拍摄照片"
+    },
+    "photoLibraryPermission": {
+      "text1": "需要相册权限",
+      "text2": "请授予相册权限以选择照片"
+    }
+  }
+}

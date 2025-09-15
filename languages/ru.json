@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "Главная",
+    "discover": "Поиск",
+    "conversations": "Чаты",
+    "profile": "Профиль"
+  },
+  "screenTitle": {
+    "postDetails": "Пост",
+    "createPost": "Создать",
+    "notifications": "Уведомления",
+    "report": "Жалоба",
+    "settings": "Настройки"
+  },
+  "common": {
+    "genders": {
+      "male": "Мужской",
+      "female": "Женский",
+      "other": "Другой"
+    },
+    "searchPlaceholder": "Поиск...",
+    "loading": "Загрузка..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "Доброе утро",
+      "goodAfternoon": "Добрый день",
+      "goodEvening": "Добрый вечер",
+      "goodNight": "Спокойной ночи"
+    },
+    "writeSomething": "О чём думаете?"
+  },
+  "discover": {
+    "filter": {
+      "title": "Фильтры",
+      "country": "Страна",
+      "languageSpoken": "Говорит на",
+      "languageLearning": "Изучает"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Настройки",
+      "settingsDescription": "Управление аккаунтом и настройками",
+      "addFriend": "Добавить в друзья",
+      "pendingRequest": "Ожидает"
+    },
+    "items": {
+      "aboutMe": "Обо мне",
+      "languages": "Языки",
+      "travel": "Путешествия",
+      "hobbies": "Хобби",
+      "books": "Книги"
+    },
+    "subsections": {
+      "speaking": "Говорит",
+      "learning": "Изучает",
+      "visited": "Посетил",
+      "wantToVisit": "Хочет посетить"
+    },
+    "restriction": {
+      "posts": "Посты приватные",
+      "collections": "Коллекции приватные"
+    }
+  },
+  "createPost": {
+    "placeholder": "О чём думаете?",
+    "imageSection": {
+      "title": "Добавить фото"
+    }
+  },
+  "collections": {
+    "newButton": "Новая коллекция",
+    "post": "пост",
+    "posts": "постов",
+    "viewCollection": "Смотреть коллекцию"
+  },
+  "comments": {
+    "addComment": "Добавить комментарий...",
+    "reply": "Ответить",
+    "replyingTo": "Ответ для",
+    "showReply": "Показать ответ",
+    "hideReply": "Скрыть ответ"
+  },
+  "userCard": {
+    "country": "Страна",
+    "speaks": "Говорит",
+    "learning": "Изучает"
+  },
+  "actions": {
+    "delete": "Удалить"
+  },
+  "notifications": {
+    "clearAll": "Очистить всё",
+    "emptySubtext": "Здесь будут уведомления о заявках в друзья и активности"
+  },
+  "letters": {
+    "title": "Письма"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Профиль",
+      "preferences": "Настройки",
+      "account": "Аккаунт",
+      "platformInfo": "О платформе"
+    },
+    "editProfile": {
+      "title": "Редактировать профиль",
+      "description": "Обновить информацию профиля"
+    },
+    "theme": {
+      "title": "Тема"
+    },
+    "language": {
+      "title": "Язык",
+      "description": "Выбрать предпочитаемый язык"
+    },
+    "logout": {
+      "title": "Выйти",
+      "description": "Выйти из аккаунта"
+    },
+    "deleteAccount": {
+      "title": "Удалить аккаунт",
+      "description": "Удалить аккаунт навсегда"
+    },
+    "platformInfo": {
+      "title": "О платформе",
+      "description": "Узнать больше о нашей платформе"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "Выйти",
+      "description": "Вы уверены, что хотите выйти?"
+    },
+    "deleteAccount": {
+      "title": "Удалить аккаунт",
+      "description": "Это действие нельзя отменить."
+    },
+    "removeFriend": {
+      "title": "Удалить друга",
+      "description": "Вы уверены, что хотите удалить этого друга?"
+    },
+    "deleteComment": {
+      "title": "Удалить комментарий",
+      "description": "Вы уверены, что хотите удалить комментарий?"
+    },
+    "deleteConversation": {
+      "title": "Удалить чат",
+      "description": "Вы уверены, что хотите удалить этот чат?"
+    },
+    "deleteMessage": {
+      "title": "Удалить сообщение",
+      "description": "Вы уверены, что хотите удалить сообщение?"
+    },
+    "discardPost": {
+      "title": "Отменить пост",
+      "description": "Вы уверены, что хотите отменить этот пост?"
+    },
+    "createPost": {
+      "title": "Создать пост",
+      "description": "Вы уверены, что хотите создать этот пост?"
+    },
+    "blockUser": {
+      "title": "Заблокировать",
+      "description": "Вы уверены, что хотите заблокировать пользователя?"
+    }
+  },
+  "report": {
+    "reporting": "Жалоба",
+    "user": "Пользователь",
+    "post": "Пост",
+    "postTitle": "Заголовок поста",
+    "description": "Описание",
+    "sections": {
+      "issue": "В чём проблема?",
+      "details": "Дополнительные детали",
+      "evidence": "Доказательства"
+    },
+    "types": {
+      "spam": {
+        "label": "Спам",
+        "description": "Нежелательный контент"
+      },
+      "harassment": {
+        "label": "Домогательства",
+        "description": "Запугивание или домогательства"
+      },
+      "hate_speech": {
+        "label": "Язык вражды",
+        "description": "Контент ненависти"
+      },
+      "inappropriate_content": {
+        "label": "Неподходящий контент",
+        "description": "Нарушает правила сообщества"
+      },
+      "other": {
+        "label": "Другое",
+        "description": "Что-то ещё"
+      }
+    },
+    "detailsPlaceholder": "Пожалуйста, предоставьте детали...",
+    "evidenceDescription": "Опционально: Добавить скриншот",
+    "addScreenshot": "Добавить скриншот",
+    "submitReport": "Отправить жалобу"
+  },
+  "emptyState": {
+    "notifications": "Нет уведомлений",
+    "userNotFound": "Пользователь не найден"
+  },
+  "friendRequestSheet": {
+    "title": "Заявка в друзья",
+    "message": "Сообщение",
+    "placeholder": "Написать сообщение..."
+  },
+  "createProfile": {
+    "backButton": "Назад",
+    "steps": {
+      "travelInterests": "Путешествия и Интересы"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "Полное имя",
+        "placeholder": "Введите ваше имя"
+      },
+      "username": {
+        "label": "Имя пользователя",
+        "placeholder": "Выберите имя пользователя",
+        "available": "Доступно",
+        "taken": "Уже занято"
+      },
+      "birthdate": {
+        "label": "Дата рождения",
+        "placeholder": "Выберите дату"
+      },
+      "gender": {
+        "label": "Пол"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "Страна",
+        "placeholder": "Выберите страну"
+      },
+      "spokenLanguages": {
+        "label": "Языки, которыми владею",
+        "placeholder": "Выберите языки"
+      },
+      "learningLanguages": {
+        "label": "Изучаемые языки",
+        "placeholder": "Выберите языки"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "Фото профиля",
+        "description": "Добавить фото",
+        "addPhoto": "Добавить фото",
+        "changePhoto": "Изменить фото"
+      },
+      "bio": {
+        "label": "О себе",
+        "placeholder": "Расскажите о себе..."
+      },
+      "hobbies": {
+        "label": "Хобби и Интересы",
+        "placeholder": "Чем вы любите заниматься?"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Посещённые страны",
+        "placeholder": "Выберите посещённые страны"
+      },
+      "wantToVisitCountries": {
+        "label": "Желаемые направления",
+        "placeholder": "Куда хотите поехать?"
+      },
+      "favoriteBooks": {
+        "label": "Любимые книги",
+        "placeholder": "Поделитесь любимыми книгами"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "Проверить профиль",
+      "reviewDescription": "Всё правильно?",
+      "genderPreference": {
+        "label": "Предпочтение по полу",
+        "enabled": "Только определённые полы",
+        "disabled": "Все полы"
+      },
+      "safetyInfo": {
+        "ageRestriction": "Только пользователи похожего возраста",
+        "genderPreference": "Фильтр по полу"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Некоторую информацию нельзя изменить"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "Прочитать правила",
+    "globalConnections": {
+      "title": "Глобальные связи",
+      "description": "Общайтесь с людьми со всего мира"
+    },
+    "languageExchange": {
+      "title": "Языковой обмен",
+      "description": "Практикуйтесь с носителями языка"
+    },
+    "culturalDiscovery": {
+      "title": "Культурные открытия",
+      "description": "Изучайте разные культуры"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "Правила сообщества",
+    "safeCommunityStandards": "Стандарты безопасности",
+    "introDescription": "Добро пожаловать в WorldFriends! Пожалуйста, прочитайте наши правила.",
+    "accept": "Принимаю",
+    "continue": "Продолжить"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "Язык изменён",
+      "text2": "Языковые настройки обновлены"
+    },
+    "loggedOut": {
+      "text1": "Вышли из системы",
+      "text2": "Вы успешно вышли из системы"
+    },
+    "accountDeleted": {
+      "text1": "Аккаунт удалён",
+      "text2": "Ваш аккаунт был удалён навсегда"
+    },
+    "reportSubmitted": {
+      "text1": "Жалоба отправлена",
+      "text2": "Спасибо за вашу помощь"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Ошибка",
+      "text2": "Что-то пошло не так. Попробуйте ещё раз."
+    },
+    "validationError": {
+      "text1": "Ошибка валидации",
+      "text2": "Пожалуйста, проверьте ваш ввод"
+    },
+    "cameraPermission": {
+      "text1": "Нужно разрешение камеры",
+      "text2": "Пожалуйста, разрешите доступ к камере"
+    },
+    "photoLibraryPermission": {
+      "text1": "Нужно разрешение к фото",
+      "text2": "Пожалуйста, разрешите доступ к фотографиям"
+    }
+  }
+}

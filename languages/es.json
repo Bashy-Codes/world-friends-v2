@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "Inicio",
+    "discover": "Descubrir",
+    "conversations": "Chats",
+    "profile": "Perfil"
+  },
+  "screenTitle": {
+    "postDetails": "Publicación",
+    "createPost": "Crear",
+    "notifications": "Notificaciones",
+    "report": "Reportar",
+    "settings": "Ajustes"
+  },
+  "common": {
+    "genders": {
+      "male": "Masculino",
+      "female": "Femenino",
+      "other": "Otro"
+    },
+    "searchPlaceholder": "Buscar...",
+    "loading": "Cargando..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "Buenos días",
+      "goodAfternoon": "Buenas tardes",
+      "goodEvening": "Buenas noches",
+      "goodNight": "Buenas noches"
+    },
+    "writeSomething": "¿Qué estás pensando?"
+  },
+  "discover": {
+    "filter": {
+      "title": "Filtros",
+      "country": "País",
+      "languageSpoken": "Idioma hablado",
+      "languageLearning": "Idioma aprendido"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Ajustes",
+      "settingsDescription": "Gestionar cuenta y preferencias",
+      "addFriend": "Agregar amigo",
+      "pendingRequest": "Pendiente"
+    },
+    "items": {
+      "aboutMe": "Sobre mí",
+      "languages": "Idiomas",
+      "travel": "Viajes",
+      "hobbies": "Aficiones",
+      "books": "Libros"
+    },
+    "subsections": {
+      "speaking": "Habla",
+      "learning": "Aprende",
+      "visited": "Visitado",
+      "wantToVisit": "Quiere visitar"
+    },
+    "restriction": {
+      "posts": "Publicaciones privadas",
+      "collections": "Colecciones privadas"
+    }
+  },
+  "createPost": {
+    "placeholder": "¿Qué estás pensando?",
+    "imageSection": {
+      "title": "Agregar imágenes"
+    }
+  },
+  "collections": {
+    "newButton": "Nueva colección",
+    "post": "publicación",
+    "posts": "publicaciones",
+    "viewCollection": "Ver colección"
+  },
+  "comments": {
+    "addComment": "Agregar comentario...",
+    "reply": "Responder",
+    "replyingTo": "Respondiendo a",
+    "showReply": "Mostrar respuesta",
+    "hideReply": "Ocultar respuesta"
+  },
+  "userCard": {
+    "country": "País",
+    "speaks": "Habla",
+    "learning": "Aprende"
+  },
+  "actions": {
+    "delete": "Eliminar"
+  },
+  "notifications": {
+    "clearAll": "Limpiar todo",
+    "emptySubtext": "Aquí verás notificaciones de solicitudes de amistad y actividades"
+  },
+  "letters": {
+    "title": "Cartas"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Perfil",
+      "preferences": "Preferencias",
+      "account": "Cuenta",
+      "platformInfo": "Info plataforma"
+    },
+    "editProfile": {
+      "title": "Editar perfil",
+      "description": "Actualizar información del perfil"
+    },
+    "theme": {
+      "title": "Tema"
+    },
+    "language": {
+      "title": "Idioma",
+      "description": "Elegir idioma preferido"
+    },
+    "logout": {
+      "title": "Cerrar sesión",
+      "description": "Salir de la cuenta"
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "description": "Eliminar cuenta permanentemente"
+    },
+    "platformInfo": {
+      "title": "Info plataforma",
+      "description": "Conoce más sobre nuestra plataforma"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "Cerrar sesión",
+      "description": "¿Estás seguro de que quieres cerrar sesión?"
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "description": "Esta acción no se puede deshacer."
+    },
+    "removeFriend": {
+      "title": "Eliminar amigo",
+      "description": "¿Estás seguro de eliminar este amigo?"
+    },
+    "deleteComment": {
+      "title": "Eliminar comentario",
+      "description": "¿Estás seguro de eliminar este comentario?"
+    },
+    "deleteConversation": {
+      "title": "Eliminar conversación",
+      "description": "¿Estás seguro de eliminar esta conversación?"
+    },
+    "deleteMessage": {
+      "title": "Eliminar mensaje",
+      "description": "¿Estás seguro de eliminar este mensaje?"
+    },
+    "discardPost": {
+      "title": "Descartar publicación",
+      "description": "¿Estás seguro de descartar esta publicación?"
+    },
+    "createPost": {
+      "title": "Crear publicación",
+      "description": "¿Estás seguro de crear esta publicación?"
+    },
+    "blockUser": {
+      "title": "Bloquear usuario",
+      "description": "¿Estás seguro de bloquear este usuario?"
+    }
+  },
+  "report": {
+    "reporting": "Reportando",
+    "user": "Usuario",
+    "post": "Publicación",
+    "postTitle": "Título publicación",
+    "description": "Descripción",
+    "sections": {
+      "issue": "¿Cuál es el problema?",
+      "details": "Detalles adicionales",
+      "evidence": "Evidencia"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "Contenido no deseado"
+      },
+      "harassment": {
+        "label": "Acoso",
+        "description": "Intimidación o acoso"
+      },
+      "hate_speech": {
+        "label": "Discurso de odio",
+        "description": "Contenido de odio"
+      },
+      "inappropriate_content": {
+        "label": "Contenido inapropiado",
+        "description": "Viola las normas comunitarias"
+      },
+      "other": {
+        "label": "Otro",
+        "description": "Otra cosa"
+      }
+    },
+    "detailsPlaceholder": "Por favor proporciona detalles...",
+    "evidenceDescription": "Opcional: Agregar captura de pantalla",
+    "addScreenshot": "Agregar captura",
+    "submitReport": "Enviar reporte"
+  },
+  "emptyState": {
+    "notifications": "Sin notificaciones",
+    "userNotFound": "Usuario no encontrado"
+  },
+  "friendRequestSheet": {
+    "title": "Solicitud de amistad",
+    "message": "Mensaje",
+    "placeholder": "Escribir mensaje..."
+  },
+  "createProfile": {
+    "backButton": "Atrás",
+    "steps": {
+      "travelInterests": "Viajes e Intereses"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "Ingresa tu nombre"
+      },
+      "username": {
+        "label": "Nombre de usuario",
+        "placeholder": "Elige nombre de usuario",
+        "available": "Disponible",
+        "taken": "Ya está tomado"
+      },
+      "birthdate": {
+        "label": "Fecha de nacimiento",
+        "placeholder": "Selecciona fecha"
+      },
+      "gender": {
+        "label": "Género"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "País",
+        "placeholder": "Selecciona país"
+      },
+      "spokenLanguages": {
+        "label": "Idiomas que hablo",
+        "placeholder": "Selecciona idiomas"
+      },
+      "learningLanguages": {
+        "label": "Idiomas que aprendo",
+        "placeholder": "Selecciona idiomas"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "Foto de perfil",
+        "description": "Agregar una foto",
+        "addPhoto": "Agregar foto",
+        "changePhoto": "Cambiar foto"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Cuéntanos sobre ti..."
+      },
+      "hobbies": {
+        "label": "Aficiones e Intereses",
+        "placeholder": "¿Qué te gusta hacer?"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Países visitados",
+        "placeholder": "Selecciona países visitados"
+      },
+      "wantToVisitCountries": {
+        "label": "Destinos deseados",
+        "placeholder": "¿Dónde quieres ir?"
+      },
+      "favoriteBooks": {
+        "label": "Libros favoritos",
+        "placeholder": "Comparte tus libros favoritos"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "Revisar perfil",
+      "reviewDescription": "¿Todo está correcto?",
+      "genderPreference": {
+        "label": "Preferencia de género",
+        "enabled": "Solo géneros específicos",
+        "disabled": "Todos los géneros"
+      },
+      "safetyInfo": {
+        "ageRestriction": "Solo usuarios de edad similar",
+        "genderPreference": "Filtrar por género"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Alguna información no se puede cambiar"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "Leer normas",
+    "globalConnections": {
+      "title": "Conexiones globales",
+      "description": "Conectar con personas de todo el mundo"
+    },
+    "languageExchange": {
+      "title": "Intercambio de idiomas",
+      "description": "Practicar con hablantes nativos"
+    },
+    "culturalDiscovery": {
+      "title": "Descubrimiento cultural",
+      "description": "Aprender sobre diferentes culturas"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "Normas comunitarias",
+    "safeCommunityStandards": "Estándares de seguridad",
+    "introDescription": "¡Bienvenido a WorldFriends! Por favor lee nuestras normas.",
+    "accept": "Acepto",
+    "continue": "Continuar"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "Idioma cambiado",
+      "text2": "Preferencia de idioma actualizada"
+    },
+    "loggedOut": {
+      "text1": "Sesión cerrada",
+      "text2": "Has cerrado sesión exitosamente"
+    },
+    "accountDeleted": {
+      "text1": "Cuenta eliminada",
+      "text2": "Tu cuenta ha sido eliminada permanentemente"
+    },
+    "reportSubmitted": {
+      "text1": "Reporte enviado",
+      "text2": "Gracias por tu ayuda"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Error",
+      "text2": "Algo salió mal. Inténtalo de nuevo."
+    },
+    "validationError": {
+      "text1": "Error de validación",
+      "text2": "Por favor verifica tu entrada"
+    },
+    "cameraPermission": {
+      "text1": "Permiso de cámara requerido",
+      "text2": "Por favor permite acceso a la cámara"
+    },
+    "photoLibraryPermission": {
+      "text1": "Permiso de fotos requerido",
+      "text2": "Por favor permite acceso a las fotos"
+    }
+  }
+}

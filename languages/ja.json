@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "ホーム",
+    "discover": "発見",
+    "conversations": "会話",
+    "profile": "プロフィール"
+  },
+  "screenTitle": {
+    "postDetails": "投稿",
+    "createPost": "投稿作成",
+    "notifications": "通知",
+    "report": "報告",
+    "settings": "設定"
+  },
+  "common": {
+    "genders": {
+      "male": "男性",
+      "female": "女性",
+      "other": "その他"
+    },
+    "searchPlaceholder": "検索...",
+    "loading": "読み込み中..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "おはようございます",
+      "goodAfternoon": "こんにちは",
+      "goodEvening": "こんばんは",
+      "goodNight": "おやすみなさい"
+    },
+    "writeSomething": "何を考えていますか？"
+  },
+  "discover": {
+    "filter": {
+      "title": "フィルター",
+      "country": "国",
+      "languageSpoken": "話せる言語",
+      "languageLearning": "学習中の言語"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "設定",
+      "settingsDescription": "アカウントと設定を管理",
+      "addFriend": "友達追加",
+      "pendingRequest": "リクエスト保留中"
+    },
+    "items": {
+      "aboutMe": "自己紹介",
+      "languages": "言語",
+      "travel": "旅行",
+      "hobbies": "趣味",
+      "books": "本"
+    },
+    "subsections": {
+      "speaking": "話せる",
+      "learning": "学習中",
+      "visited": "訪問済み",
+      "wantToVisit": "訪問したい"
+    },
+    "restriction": {
+      "posts": "このユーザーの投稿は非公開です",
+      "collections": "このユーザーのコレクションは非公開です"
+    }
+  },
+  "createPost": {
+    "placeholder": "何を考えていますか？",
+    "imageSection": {
+      "title": "画像を追加"
+    }
+  },
+  "collections": {
+    "newButton": "新しいコレクション",
+    "post": "投稿",
+    "posts": "投稿",
+    "viewCollection": "コレクションを見る"
+  },
+  "comments": {
+    "addComment": "コメントを追加...",
+    "reply": "返信",
+    "replyingTo": "返信先",
+    "showReply": "返信を表示",
+    "hideReply": "返信を非表示"
+  },
+  "userCard": {
+    "country": "国",
+    "speaks": "話せる言語",
+    "learning": "学習中"
+  },
+  "actions": {
+    "delete": "削除"
+  },
+  "notifications": {
+    "clearAll": "すべてクリア",
+    "emptySubtext": "友達リクエスト、メッセージ、その他の活動に関する通知がここに表示されます"
+  },
+  "letters": {
+    "title": "手紙"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "プロフィール",
+      "preferences": "設定",
+      "account": "アカウント",
+      "platformInfo": "プラットフォーム情報"
+    },
+    "editProfile": {
+      "title": "プロフィール編集",
+      "description": "プロフィール情報と設定を更新"
+    },
+    "theme": {
+      "title": "テーマ"
+    },
+    "language": {
+      "title": "言語",
+      "description": "希望言語を選択"
+    },
+    "logout": {
+      "title": "ログアウト",
+      "description": "アカウントからサインアウト"
+    },
+    "deleteAccount": {
+      "title": "アカウント削除",
+      "description": "アカウントとデータを完全に削除"
+    },
+    "platformInfo": {
+      "title": "プラットフォーム情報",
+      "description": "プラットフォームとガイドラインについて詳しく知る"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "ログアウト",
+      "description": "本当にログアウトしますか？"
+    },
+    "deleteAccount": {
+      "title": "アカウント削除",
+      "description": "この操作は元に戻すことができません。本当に削除しますか？"
+    },
+    "removeFriend": {
+      "title": "友達を削除",
+      "description": "本当にこの友達を削除しますか？"
+    },
+    "deleteComment": {
+      "title": "コメントを削除",
+      "description": "本当にこのコメントを削除しますか？"
+    },
+    "deleteConversation": {
+      "title": "会話を削除",
+      "description": "本当にこの会話を削除しますか？"
+    },
+    "deleteMessage": {
+      "title": "メッセージを削除",
+      "description": "本当にこのメッセージを削除しますか？"
+    },
+    "discardPost": {
+      "title": "投稿を破棄",
+      "description": "本当にこの投稿を破棄しますか？"
+    },
+    "createPost": {
+      "title": "投稿を作成",
+      "description": "本当にこの投稿を作成しますか？"
+    },
+    "blockUser": {
+      "title": "ユーザーをブロック",
+      "description": "本当にこのユーザーをブロックしますか？"
+    }
+  },
+  "report": {
+    "reporting": "報告",
+    "user": "ユーザー",
+    "post": "投稿",
+    "postTitle": "投稿タイトル",
+    "description": "説明",
+    "sections": {
+      "issue": "何が問題ですか？",
+      "details": "追加詳細",
+      "evidence": "証拠"
+    },
+    "types": {
+      "spam": {
+        "label": "スパム",
+        "description": "不要または繰り返しコンテンツ"
+      },
+      "harassment": {
+        "label": "嫌がらせ",
+        "description": "いじめや嫌がらせ"
+      },
+      "hate_speech": {
+        "label": "ヘイトスピーチ",
+        "description": "憎悪的または差別的コンテンツ"
+      },
+      "inappropriate_content": {
+        "label": "不適切なコンテンツ",
+        "description": "コミュニティガイドラインに違反するコンテンツ"
+      },
+      "other": {
+        "label": "その他",
+        "description": "その他の問題"
+      }
+    },
+    "detailsPlaceholder": "追加詳細を提供してください...",
+    "evidenceDescription": "オプション：スクリーンショットやその他の証拠を追加",
+    "addScreenshot": "スクリーンショットを追加",
+    "submitReport": "報告を送信"
+  },
+  "emptyState": {
+    "notifications": "通知はまだありません",
+    "userNotFound": "ユーザーが見つかりません"
+  },
+  "friendRequestSheet": {
+    "title": "友達リクエストを送信",
+    "message": "メッセージ",
+    "placeholder": "メッセージを書く..."
+  },
+  "createProfile": {
+    "backButton": "戻る",
+    "steps": {
+      "travelInterests": "旅行と興味"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "氏名",
+        "placeholder": "氏名を入力"
+      },
+      "username": {
+        "label": "ユーザー名",
+        "placeholder": "ユーザー名を選択",
+        "available": "ユーザー名は利用可能です",
+        "taken": "ユーザー名は使用済みです"
+      },
+      "birthdate": {
+        "label": "生年月日",
+        "placeholder": "生年月日を選択"
+      },
+      "gender": {
+        "label": "性別"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "国",
+        "placeholder": "国を選択"
+      },
+      "spokenLanguages": {
+        "label": "話せる言語",
+        "placeholder": "話せる言語を選択"
+      },
+      "learningLanguages": {
+        "label": "学習中の言語",
+        "placeholder": "学習中の言語を選択"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "プロフィール写真",
+        "description": "他の人があなたを認識できるように写真を追加",
+        "addPhoto": "写真を追加",
+        "changePhoto": "写真を変更"
+      },
+      "bio": {
+        "label": "自己紹介",
+        "placeholder": "自分について教えてください..."
+      },
+      "hobbies": {
+        "label": "趣味と興味",
+        "placeholder": "何を楽しんでいますか？"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "訪問した国",
+        "placeholder": "訪問した国を選択"
+      },
+      "wantToVisitCountries": {
+        "label": "訪問したい国",
+        "placeholder": "訪問したい国を選択"
+      },
+      "favoriteBooks": {
+        "label": "お気に入りの本",
+        "placeholder": "お気に入りの本をシェア"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "プロフィールを確認",
+      "reviewDescription": "プロフィールを作成する前にすべて正しいことを確認してください",
+      "genderPreference": {
+        "label": "友達の性別設定",
+        "enabled": "特定の性別のみ表示",
+        "disabled": "すべての性別を表示"
+      },
+      "safetyInfo": {
+        "ageRestriction": "あなたの年齢から5歳以内のユーザーとのみ接続できます",
+        "genderPreference": "性別設定で友達をフィルタリングできます"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "セキュリティ上の理由により、一部の情報は変更できません"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "コミュニティガイドラインを読む",
+    "globalConnections": {
+      "title": "グローバルな繋がり",
+      "description": "世界中の人々と繋がる"
+    },
+    "languageExchange": {
+      "title": "言語交換",
+      "description": "ネイティブスピーカーと言語を練習"
+    },
+    "culturalDiscovery": {
+      "title": "文化の発見",
+      "description": "異なる文化や伝統について学ぶ"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "コミュニティガイドライン",
+    "safeCommunityStandards": "安全なコミュニティ基準",
+    "introDescription": "WorldFriendsへようこそ！コミュニティガイドラインを読んで同意してください。",
+    "accept": "同意します",
+    "continue": "続行"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "言語が変更されました",
+      "text2": "言語設定が更新されました"
+    },
+    "loggedOut": {
+      "text1": "ログアウトしました",
+      "text2": "正常にログアウトしました"
+    },
+    "accountDeleted": {
+      "text1": "アカウントが削除されました",
+      "text2": "アカウントが完全に削除されました"
+    },
+    "reportSubmitted": {
+      "text1": "報告が送信されました",
+      "text2": "コミュニティの安全維持にご協力いただきありがとうございます"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "エラー",
+      "text2": "何か問題が発生しました。もう一度お試しください。"
+    },
+    "validationError": {
+      "text1": "検証エラー",
+      "text2": "入力内容を確認してもう一度お試しください"
+    },
+    "cameraPermission": {
+      "text1": "カメラ権限が必要です",
+      "text2": "写真を撮影するためにカメラ権限を許可してください"
+    },
+    "photoLibraryPermission": {
+      "text1": "フォトライブラリ権限が必要です",
+      "text2": "写真を選択するためにフォトライブラリ権限を許可してください"
+    }
+  }
+}

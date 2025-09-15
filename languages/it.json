@@ -1,0 +1,361 @@
+{
+  "tabTitle": {
+    "home": "Home",
+    "discover": "Scopri",
+    "conversations": "Chat",
+    "profile": "Profilo"
+  },
+  "screenTitle": {
+    "postDetails": "Post",
+    "createPost": "Crea",
+    "notifications": "Notifiche",
+    "report": "Segnala",
+    "settings": "Impostazioni"
+  },
+  "common": {
+    "genders": {
+      "male": "Maschio",
+      "female": "Femmina",
+      "other": "Altro"
+    },
+    "searchPlaceholder": "Cerca...",
+    "loading": "Caricamento..."
+  },
+  "home": {
+    "greetings": {
+      "goodMorning": "Buongiorno",
+      "goodAfternoon": "Buon pomeriggio",
+      "goodEvening": "Buonasera",
+      "goodNight": "Buonanotte"
+    },
+    "writeSomething": "A cosa stai pensando?"
+  },
+  "discover": {
+    "filter": {
+      "title": "Filtri",
+      "country": "Paese",
+      "languageSpoken": "Lingua parlata",
+      "languageLearning": "Lingua studiata"
+    }
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Impostazioni",
+      "settingsDescription": "Gestisci account e preferenze",
+      "addFriend": "Aggiungi amico",
+      "pendingRequest": "In attesa"
+    },
+    "items": {
+      "aboutMe": "Su di me",
+      "languages": "Lingue",
+      "travel": "Viaggi",
+      "hobbies": "Hobby",
+      "books": "Libri"
+    },
+    "subsections": {
+      "speaking": "Parla",
+      "learning": "Studia",
+      "visited": "Visitato",
+      "wantToVisit": "Vuole visitare"
+    },
+    "restriction": {
+      "posts": "Post privati",
+      "collections": "Collezioni private"
+    }
+  },
+  "createPost": {
+    "placeholder": "A cosa stai pensando?",
+    "imageSection": {
+      "title": "Aggiungi immagini"
+    }
+  },
+  "collections": {
+    "newButton": "Nuova collezione",
+    "post": "post",
+    "posts": "post",
+    "viewCollection": "Vedi collezione"
+  },
+  "comments": {
+    "addComment": "Aggiungi commento...",
+    "reply": "Rispondi",
+    "replyingTo": "Rispondendo a",
+    "showReply": "Mostra risposta",
+    "hideReply": "Nascondi risposta"
+  },
+  "userCard": {
+    "country": "Paese",
+    "speaks": "Parla",
+    "learning": "Studia"
+  },
+  "actions": {
+    "delete": "Elimina"
+  },
+  "notifications": {
+    "clearAll": "Cancella tutto",
+    "emptySubtext": "Qui vedrai notifiche di richieste di amicizia e attività"
+  },
+  "letters": {
+    "title": "Lettere"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Profilo",
+      "preferences": "Preferenze",
+      "account": "Account",
+      "platformInfo": "Info piattaforma"
+    },
+    "editProfile": {
+      "title": "Modifica profilo",
+      "description": "Aggiorna informazioni profilo"
+    },
+    "theme": {
+      "title": "Tema"
+    },
+    "language": {
+      "title": "Lingua",
+      "description": "Scegli lingua preferita"
+    },
+    "logout": {
+      "title": "Disconnetti",
+      "description": "Esci dall'account"
+    },
+    "deleteAccount": {
+      "title": "Elimina account",
+      "description": "Elimina account permanentemente"
+    },
+    "platformInfo": {
+      "title": "Info piattaforma",
+      "description": "Scopri di più sulla nostra piattaforma"
+    }
+  },
+  "confirmation": {
+    "logout": {
+      "title": "Disconnetti",
+      "description": "Sei sicuro di volerti disconnettere?"
+    },
+    "deleteAccount": {
+      "title": "Elimina account",
+      "description": "Questa azione non può essere annullata."
+    },
+    "removeFriend": {
+      "title": "Rimuovi amico",
+      "description": "Sei sicuro di rimuovere questo amico?"
+    },
+    "deleteComment": {
+      "title": "Elimina commento",
+      "description": "Sei sicuro di eliminare questo commento?"
+    },
+    "deleteConversation": {
+      "title": "Elimina conversazione",
+      "description": "Sei sicuro di eliminare questa conversazione?"
+    },
+    "deleteMessage": {
+      "title": "Elimina messaggio",
+      "description": "Sei sicuro di eliminare questo messaggio?"
+    },
+    "discardPost": {
+      "title": "Scarta post",
+      "description": "Sei sicuro di scartare questo post?"
+    },
+    "createPost": {
+      "title": "Crea post",
+      "description": "Sei sicuro di creare questo post?"
+    },
+    "blockUser": {
+      "title": "Blocca utente",
+      "description": "Sei sicuro di bloccare questo utente?"
+    }
+  },
+  "report": {
+    "reporting": "Segnalazione",
+    "user": "Utente",
+    "post": "Post",
+    "postTitle": "Titolo post",
+    "description": "Descrizione",
+    "sections": {
+      "issue": "Qual è il problema?",
+      "details": "Dettagli aggiuntivi",
+      "evidence": "Prova"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "Contenuto indesiderato"
+      },
+      "harassment": {
+        "label": "Molestie",
+        "description": "Bullismo o molestie"
+      },
+      "hate_speech": {
+        "label": "Discorso d'odio",
+        "description": "Contenuto di odio"
+      },
+      "inappropriate_content": {
+        "label": "Contenuto inappropriato",
+        "description": "Viola le linee guida della community"
+      },
+      "other": {
+        "label": "Altro",
+        "description": "Qualcos'altro"
+      }
+    },
+    "detailsPlaceholder": "Per favore fornisci dettagli...",
+    "evidenceDescription": "Opzionale: Aggiungi screenshot",
+    "addScreenshot": "Aggiungi screenshot",
+    "submitReport": "Invia segnalazione"
+  },
+  "emptyState": {
+    "notifications": "Nessuna notifica",
+    "userNotFound": "Utente non trovato"
+  },
+  "friendRequestSheet": {
+    "title": "Richiesta di amicizia",
+    "message": "Messaggio",
+    "placeholder": "Scrivi un messaggio..."
+  },
+  "createProfile": {
+    "backButton": "Indietro",
+    "steps": {
+      "travelInterests": "Viaggi e Interessi"
+    },
+    "basicInfo": {
+      "name": {
+        "label": "Nome completo",
+        "placeholder": "Inserisci il tuo nome"
+      },
+      "username": {
+        "label": "Nome utente",
+        "placeholder": "Scegli nome utente",
+        "available": "Disponibile",
+        "taken": "Già preso"
+      },
+      "birthdate": {
+        "label": "Data di nascita",
+        "placeholder": "Seleziona data"
+      },
+      "gender": {
+        "label": "Genere"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "Paese",
+        "placeholder": "Seleziona paese"
+      },
+      "spokenLanguages": {
+        "label": "Lingue parlate",
+        "placeholder": "Seleziona lingue"
+      },
+      "learningLanguages": {
+        "label": "Lingue studiate",
+        "placeholder": "Seleziona lingue"
+      }
+    },
+    "aboutMe": {
+      "profilePicture": {
+        "label": "Foto profilo",
+        "description": "Aggiungi una foto",
+        "addPhoto": "Aggiungi foto",
+        "changePhoto": "Cambia foto"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Parlaci di te..."
+      },
+      "hobbies": {
+        "label": "Hobby e Interessi",
+        "placeholder": "Cosa ti piace fare?"
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Paesi visitati",
+        "placeholder": "Seleziona paesi visitati"
+      },
+      "wantToVisitCountries": {
+        "label": "Destinazioni desiderate",
+        "placeholder": "Dove vuoi andare?"
+      },
+      "favoriteBooks": {
+        "label": "Libri preferiti",
+        "placeholder": "Condividi i tuoi libri preferiti"
+      }
+    },
+    "finalize": {
+      "reviewTitle": "Rivedi profilo",
+      "reviewDescription": "Tutto è corretto?",
+      "genderPreference": {
+        "label": "Preferenza di genere",
+        "enabled": "Solo generi specifici",
+        "disabled": "Tutti i generi"
+      },
+      "safetyInfo": {
+        "ageRestriction": "Solo utenti di età simile",
+        "genderPreference": "Filtra per genere"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Alcune informazioni non possono essere cambiate"
+    }
+  },
+  "onboarding": {
+    "readGuidelines": "Leggi linee guida",
+    "globalConnections": {
+      "title": "Connessioni globali",
+      "description": "Connettiti con persone di tutto il mondo"
+    },
+    "languageExchange": {
+      "title": "Scambio linguistico",
+      "description": "Pratica con madrelingua"
+    },
+    "culturalDiscovery": {
+      "title": "Scoperta culturale",
+      "description": "Impara diverse culture"
+    }
+  },
+  "guidelines": {
+    "communityGuidelines": "Linee guida della community",
+    "safeCommunityStandards": "Standard di sicurezza",
+    "introDescription": "Benvenuto su WorldFriends! Leggi le nostre linee guida.",
+    "accept": "Accetto",
+    "continue": "Continua"
+  },
+  "successToasts": {
+    "languageChanged": {
+      "text1": "Lingua cambiata",
+      "text2": "Preferenza lingua aggiornata"
+    },
+    "loggedOut": {
+      "text1": "Disconnesso",
+      "text2": "Ti sei disconnesso con successo"
+    },
+    "accountDeleted": {
+      "text1": "Account eliminato",
+      "text2": "Il tuo account è stato eliminato permanentemente"
+    },
+    "reportSubmitted": {
+      "text1": "Segnalazione inviata",
+      "text2": "Grazie per il tuo aiuto"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Errore",
+      "text2": "Qualcosa è andato storto. Riprova."
+    },
+    "validationError": {
+      "text1": "Errore di validazione",
+      "text2": "Per favore controlla il tuo input"
+    },
+    "cameraPermission": {
+      "text1": "Permesso fotocamera richiesto",
+      "text2": "Per favore consenti accesso alla fotocamera"
+    },
+    "photoLibraryPermission": {
+      "text1": "Permesso foto richiesto",
+      "text2": "Per favore consenti accesso alle foto"
+    }
+  }
+}
