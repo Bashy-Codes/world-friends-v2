@@ -102,7 +102,7 @@ export default function LettersScreen() {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={
             <>
-              <Greetings onCreatePost={handleComposeLetter} />
+              <Greetings onCreatePost={handleComposeLetter} actionText={t("actions.composeLetter")}/>
               <LetterSegmentControl
                 activeSegment={activeSegment}
                 onSegmentChange={handleSegmentChange}

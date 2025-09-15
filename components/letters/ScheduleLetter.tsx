@@ -134,7 +134,7 @@ export const ScheduleLetter: React.FC<ScheduleLetterProps> = ({
           </TouchableOpacity>
         </View>
         <Text style={styles.deliveryText}>
-          {t("composeLetter.deliveryTimeInfo")}: {getScheduleText().toLowerCase()}
+          {t("composeLetter.deliveryTimeInfo")} {getScheduleText().toLowerCase()}
         </Text>
       </View>
     </View>

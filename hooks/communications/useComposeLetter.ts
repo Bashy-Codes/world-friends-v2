@@ -3,6 +3,7 @@ import { useMutation } from "convex/react";
 import { router } from "expo-router";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
+import { t } from "i18next";
 
 export interface Friend {
   userId: Id<"users">;
@@ -168,11 +169,11 @@ export const useComposeLetter = () => {
 
   const getScheduleText = useCallback(() => {
     if (scheduleDays === 1) {
-      return "Tomorrow";
+      return t("time.tomorrow");
     } else {
-      return `In ${scheduleDays} days`;
+      return `in ${scheduleDays} days`;
     }
-  }, [scheduleDays]);
+  }, [scheduleDays, t]);
 
   return {
     // State

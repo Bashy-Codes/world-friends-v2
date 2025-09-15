@@ -261,8 +261,7 @@ export default function ComposeLetterScreen() {
         icon="send-outline"
         description={selectedFriend ? t("confirmation.sendLetter.description", {
           name: selectedFriend.name,
-          countryFlag: getCountryByCode(selectedFriend.country)?.flag || "🌍",
-          days: scheduleDays
+          countryFlag: getCountryByCode(selectedFriend.country)?.flag || "🌍"
         }) : ""}
         iconColor={theme.colors.primary}
         confirmButtonColor={theme.colors.success}

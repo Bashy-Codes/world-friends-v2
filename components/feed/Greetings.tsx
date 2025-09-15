@@ -8,9 +8,10 @@ import { Button } from "@/components/ui/Button";
 
 interface GreetingsProps {
   onCreatePost?: () => void;
+  actionText: string
 }
 
-export const Greetings: React.FC<GreetingsProps> = ({ onCreatePost }) => {
+export const Greetings: React.FC<GreetingsProps> = ({ onCreatePost, actionText }) => {
   const theme = useTheme();
   const { t } = useTranslation();
 
@@ -83,7 +84,7 @@ export const Greetings: React.FC<GreetingsProps> = ({ onCreatePost }) => {
         {onCreatePost && (
           <Button
             iconName="create"
-            text={t("greetings.writeSomething")}
+            text={actionText}
             onPress={onCreatePost}
             style={{ width: "100%" }}
           />

@@ -51,8 +51,7 @@
       "goodMorning": "Good morning",
       "goodAfternoon": "Good afternoon",
       "goodEvening": "Good evening",
-      "goodNight": "Good night",
-      "writeSomething": "Write Something"
+      "goodNight": "Good night"
     },
     "filterModal": {
       "title": "Filters",
@@ -165,6 +164,8 @@
     }
   },
   "actions": {
+    "composeLetter": "Compose Letter",
+    "writeSomething": "Write Something",
     "deletePost": "Delete Post",
     "removeFromCollection": "Remove from Collection",
     "addToCollection": "Add to Collection",
@@ -217,7 +218,7 @@
       "description": "Are you sure you want to discard this letter? All your progress will be lost."
     },
     "sendLetter": {
-      "description": "This letter will be delivered to {{name}} in {{countryFlag}} after {{days}} days"
+      "description": "This letter will be delivered to {{name}} in {{countryFlag}}"
     }
   },
   "report": {
@@ -582,6 +583,7 @@
     "hour": "hour ago",
     "hours": "hours ago",
     "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
     "days": "days ago",
     "week": "week ago",
     "weeks": "weeks ago",

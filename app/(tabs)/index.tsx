@@ -165,7 +165,7 @@ export default function HomeTab() {
           onEndReachedThreshold={0.5}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={
-            <Greetings onCreatePost={handleCreatePost} />
+            <Greetings onCreatePost={handleCreatePost} actionText={t("actions.writeSomething")}/>
           }
           ListFooterComponent={renderFooter}
           ListEmptyComponent={!loading ? renderEmptyState : null}
