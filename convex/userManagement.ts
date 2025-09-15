@@ -203,7 +203,6 @@ export const blockUser = mutation({
         args.userId,
         currentUserId,
         "user_blocked",
-        `${currentUser.name} has blocked you`
       );
     }
 
@@ -365,7 +364,7 @@ export async function createNotification(
     | "post_commented"
     | "comment_replied"
     | "letter_scheduled",
-  content: string,
+    data?: any,
   // postId?: Id<"posts">,
   // commentId?: Id<"comments">
 ) {
@@ -378,8 +377,8 @@ export async function createNotification(
     recipientId,
     senderId,
     type,
-    content,
     hasUnread: true,
+    ...(data ? { data } : {}),
     // postId,
     // commentId,
   });
@@ -425,6 +424,7 @@ export const getUserNotifications = query({
         return {
           userId: profile.userId,
           name: user.name,
+          country: user.country
         };
       })
     );
@@ -437,7 +437,7 @@ export const getUserNotifications = query({
         return {
           notificationId: notification._id,
           type: notification.type,
-          content: notification.content,
+          data: notification.data,
           hasUnread: notification.hasUnread,
           createdAt: notification._creationTime,
           sender: senderProfile,

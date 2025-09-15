@@ -189,7 +189,6 @@ export default function PostScreen() {
                 data={comments}
                 keyExtractor={(item) => item.commentId}
                 renderItem={renderCommentItem}
-                estimatedItemSize={120}
                 onEndReached={handleLoadMoreComments}
                 onEndReachedThreshold={0.5}
                 showsVerticalScrollIndicator={false}

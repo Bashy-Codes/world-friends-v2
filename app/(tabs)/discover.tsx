@@ -135,7 +135,6 @@ export default function DiscoverTab() {
           keyExtractor={(item, index) =>
             loading ? `skeleton-${index}` : item.userId
           }
-          estimatedItemSize={350}
           onEndReached={handleLoadMore}
           onEndReachedThreshold={0.5}
           showsVerticalScrollIndicator={false}

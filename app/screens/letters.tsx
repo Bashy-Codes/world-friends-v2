@@ -97,7 +97,6 @@ export default function LettersScreen() {
           data={loading ? skeletonData : letters}
           renderItem={renderItem}
           keyExtractor={keyExtractor}
-          estimatedItemSize={120}
           onEndReached={handleLoadMore}
           onEndReachedThreshold={0.5}
           showsVerticalScrollIndicator={false}

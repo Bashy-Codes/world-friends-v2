@@ -78,7 +78,6 @@ export const RequestsSection: React.FC<RequestsSectionProps> = ({
     <FlashList
       data={requestsData}
       renderItem={renderRequestItem}
-      estimatedItemSize={verticalScale(140)}
       onEndReached={onLoadMore}
       onEndReachedThreshold={0.1}
       showsVerticalScrollIndicator={false}

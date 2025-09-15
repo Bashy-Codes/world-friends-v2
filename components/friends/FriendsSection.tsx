@@ -68,7 +68,6 @@ export const FriendsSection: React.FC<FriendsSectionProps> = ({
       <FlashList
         data={friendSkeletons}
         renderItem={renderFriendSkeleton}
-        estimatedItemSize={verticalScale(300)}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.contentContainer}
       />
@@ -79,7 +78,6 @@ export const FriendsSection: React.FC<FriendsSectionProps> = ({
     <FlashList
       data={friendsData}
       renderItem={renderFriendItem}
-      estimatedItemSize={verticalScale(300)}
       onEndReached={onLoadMore}
       onEndReachedThreshold={0.1}
       showsVerticalScrollIndicator={false}

@@ -297,7 +297,6 @@ export const deleteConversation = mutation({
         otherParticipantId,
         currentUserId,
         "conversation_deleted",
-        `${currentUser.name} deleted your conversation`
       );
     }
 

@@ -2,7 +2,6 @@ import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { paginationOptsValidator } from "convex/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
-import { Id } from "./_generated/dataModel";
 import { createNotification } from "./userManagement";
 import { areFriends } from "./helpers";
 import { r2 } from "./storage";
@@ -93,7 +92,7 @@ export const scheduleLetter = mutation({
         args.recipientId,
         currentUserId,
         "letter_scheduled",
-        `You will receive a letter by ${sender.name} from ${sender.country} in ${args.daysUntilDelivery} day${args.daysUntilDelivery > 1 ? 's' : ''}.`
+        {letterDeliveryDays: args.daysUntilDelivery}
       );
     }
 

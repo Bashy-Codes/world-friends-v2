@@ -221,7 +221,6 @@ export const CollectionsModal = forwardRef<CollectionsModalRef, CollectionsModal
                   data={collections}
                   keyExtractor={(item) => item.collectionId}
                   renderItem={renderCollectionItem}
-                  estimatedItemSize={80}
                   onEndReached={handleLoadMore}
                   onEndReachedThreshold={0.5}
                   showsVerticalScrollIndicator={false}

@@ -179,7 +179,6 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
         data={collections}
         renderItem={renderCollection}
         keyExtractor={(item) => item.collectionId}
-        estimatedItemSize={280}
         onEndReached={handleLoadMore}
         onEndReachedThreshold={0.5}
         showsVerticalScrollIndicator={false}

@@ -77,8 +77,6 @@ const FriendItemComponent: React.FC<{
         <ProfilePicture
           profilePicture={friend.profilePicture}
           size={46}
-          lazy={true}
-          priority="low"
         />
         <View style={styles.textContainer}>
           <Text style={styles.name}>{}{friend.name}</Text>

@@ -86,8 +86,6 @@ const UserItem: React.FC<{ reaction: ReactionTypes }> = ({ reaction }) => {
         profilePicture={reaction.reactionAuthor.profilePicture || undefined}
         size={50}
         style={styles.profileImage}
-        lazy={true}
-        priority="low"
       />
       <View style={styles.userInfo}>
         <View style={styles.userNameContainer}>
@@ -219,7 +217,6 @@ export const ReactionsModal: React.FC<ReactionsModalProps> = ({ visible, postId,
                 data={reactions}
                 keyExtractor={(item) => item.reactionId}
                 renderItem={renderUserItem}
-                estimatedItemSize={80}
                 onEndReached={handleLoadMore}
                 onEndReachedThreshold={0.5}
                 showsVerticalScrollIndicator={false}

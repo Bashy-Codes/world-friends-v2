@@ -206,7 +206,7 @@ const notifications = {
       v.literal("comment_replied"),
       v.literal("letter_scheduled"), 
     ),
-    content: v.string(),
+    data: v.optional(v.any()),
     hasUnread: v.boolean(),
   })
     .index("by_recipient", ["recipientId"])

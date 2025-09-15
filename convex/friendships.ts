@@ -157,7 +157,6 @@ export const sendFriendRequest = mutation({
         args.receiverId,
         currentUserId,
         "friend_request_sent",
-        `${senderUser.name} sent you a friend request`
       );
     }
 
@@ -294,7 +293,6 @@ export const acceptFriendRequest = mutation({
         request.senderId,
         currentUserId,
         "friend_request_accepted",
-        `${accepterUser.name} accepted your friend request`
       );
     }
 
@@ -330,8 +328,7 @@ export const rejectFriendRequest = mutation({
         ctx,
         request.senderId,
         currentUserId,
-        "friend_request_rejected",
-        `${rejecterUser.name} declined your friend request`
+        "friend_request_rejected"
       );
     }
 
@@ -384,7 +381,6 @@ export const removeFriend = mutation({
         args.friendUserId,
         currentUserId,
         "friend_removed",
-        `${currentUser.name} removed you from friends`
       );
     }
 

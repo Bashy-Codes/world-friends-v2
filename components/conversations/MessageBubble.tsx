@@ -194,7 +194,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({
 
             {/* Message Content */}
             <View style={styles.messageContent}>
-              <Text style={styles.messageText} selectable={true}>
+              <Text style={styles.messageText}>
                 {message.content}
               </Text>
             </View>

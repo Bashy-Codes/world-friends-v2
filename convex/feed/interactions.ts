@@ -87,8 +87,7 @@ export const addPostReaction = mutation({
             ctx,
             post.userId,
             userId,
-            "post_reaction", // Keep same notification type for now
-            `${reactorUser.name} reacted to your post`,
+            "post_reaction", 
           );
         }
       }
@@ -269,7 +268,6 @@ export const commentPost = mutation({
             parentComment.userId,
             userId,
             "comment_replied",
-            `${commenterUser.name} replied to your comment`,
           );
         }
 
@@ -280,7 +278,6 @@ export const commentPost = mutation({
             post.userId,
             userId,
             "comment_replied",
-            `${commenterUser.name} replied to a comment on your post`,
           );
         }
       } else {

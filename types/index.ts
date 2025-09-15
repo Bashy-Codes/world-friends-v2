@@ -1,8 +1,8 @@
 import { Id } from "@/convex/_generated/dataModel";
 
 
-export interface NotificationData {
-  notificationId: Id<"notifications">;
+export interface NotificationItem {
+  notificationId: string;
   type:
     | "friend_request_sent"
     | "friend_request_accepted"
@@ -14,12 +14,12 @@ export interface NotificationData {
     | "post_commented"
     | "comment_replied"
     | "letter_scheduled";
-  content: string;
   createdAt: number;
+  data?: { letterDeliveryDays?: number };
   sender: {
     userId: string;
     name: string;
-    profilePictureUrl: string | null;
+    country: string;
   };
 }
 

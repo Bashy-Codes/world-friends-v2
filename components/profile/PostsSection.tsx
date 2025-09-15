@@ -165,7 +165,6 @@ export const PostsSection: React.FC<PostsSectionProps> = ({
         data={posts}
         renderItem={renderPost}
         keyExtractor={(item) => item.postId}
-        estimatedItemSize={400}
         onEndReached={handleLoadMore}
         onEndReachedThreshold={0.5}
         showsVerticalScrollIndicator={false}

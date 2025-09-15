@@ -100,8 +100,6 @@ const PostCardComponent: React.FC<PostCardProps> = ({
       height: scale(45),
       borderRadius: scale(theme.borderRadius.full),
       marginRight: scale(12),
-      borderWidth: scale(2),
-      borderColor: theme.colors.primary
     },
     userInfo: {
       flex: 1,

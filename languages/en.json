@@ -43,7 +43,9 @@
       "female": "Female",
       "other": "Other"
     },
-    "emptyState": "No Items Found"
+    "emptyState": "No Items Found",
+    "day": "day",
+    "days": "days"
   },
     "greetings": {
       "goodMorning": "Good morning",
@@ -216,12 +218,6 @@
     },
     "sendLetter": {
       "description": "This letter will be delivered to {{name}} in {{countryFlag}} after {{days}} days"
-    }
-  },
-  "letter": {
-    "delivery": {
-      "sent": "Composed by you {{timeAgo}} to be delivered to {{userName}} in {{countryName}} {{countryFlag}}",
-      "received": "Composed by {{userName}} {{timeAgo}} from {{countryName}} {{countryFlag}}"
     }
   },
   "report": {
@@ -566,5 +562,32 @@
       "title": "Follow Local Laws",
       "description": "Ensure all your activities on the platform comply with local laws and regulations in your country and region."
     }
-   }
+   },
+  "notification": {
+    "friend_request_sent": "{{senderName}} sent you a friend request from {{country}}",
+    "friend_request_accepted": "{{senderName}} from {{country}} accepted your friend request",
+    "friend_request_rejected": "{{senderName}} rejected your friend request",
+    "friend_removed": "{{senderName}} removed you from friends",
+    "conversation_deleted": "{{senderName}} deleted the conversation",
+    "user_blocked": "{{senderName}} has blocked you",
+    "post_reaction": "{{senderName}} from {{country}} reacted to your post",
+    "post_commented": "{{senderName}} from {{country}} commented on your post",
+    "comment_replied": "{{senderName}} from {{country}} replied to your comment",
+    "letter_scheduled": "You will receive a letter by {{senderName}} from {{country}} in {{count}} {{dayLabel}}"
+  },
+  "time": {
+    "just_now": "Just now",
+    "minute": "minute ago",
+    "minutes": "minutes ago",
+    "hour": "hour ago",
+    "hours": "hours ago",
+    "yesterday": "Yesterday",
+    "days": "days ago",
+    "week": "week ago",
+    "weeks": "weeks ago",
+    "month": "month ago",
+    "months": "months ago",
+    "year": "year ago",
+    "years": "years ago"
+  }
 }

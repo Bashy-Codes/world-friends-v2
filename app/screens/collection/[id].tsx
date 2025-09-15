@@ -169,7 +169,6 @@ export default function CollectionScreen() {
               data={collectionPosts}
               renderItem={renderPost}
               keyExtractor={(item) => item.collectionPostId}
-              estimatedItemSize={400}
               onEndReached={handleLoadMore}
               onEndReachedThreshold={0.5}
               showsVerticalScrollIndicator={false}
