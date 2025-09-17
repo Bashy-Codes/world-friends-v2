@@ -7,6 +7,14 @@ import { getAuthUserId } from "@convex-dev/auth/server";
 import { PutObjectCommand } from "@aws-sdk/client-s3"; 
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 
+export const generateConvexUploadUrl = mutation({
+  handler: async (ctx) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) throw new Error("Not authenticated");
+    return await ctx.storage.generateUploadUrl();
+  },
+});
+
 // Custom R2 class to support custom domain and cache headers
 class CustomR2 extends R2 {
   constructor(component: any, options?: any) {

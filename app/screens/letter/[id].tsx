@@ -5,7 +5,7 @@ import { useLocalSearchParams } from "expo-router";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { useTheme } from "@/lib/Theme";
-import { useLetter } from "@/hooks/communications/useLetter";
+import { useLetter } from "@/hooks/letters/useLetter";
 import { Id } from "@/convex/_generated/dataModel";
 import { getCountryByCode } from "@/constants/geographics";
 import { useTranslation } from "react-i18next";
@@ -14,7 +14,6 @@ import { useTranslation } from "react-i18next";
 import { ScreenHeader } from "@/components/ScreenHeader";
 import { ScreenLoading } from "@/components/ScreenLoading";
 import { EmptyState } from "@/components/EmptyState";
-import { Separator } from "@/components/common/Separator";
 
 export default function LetterDetailScreen() {
   const theme = useTheme();
@@ -118,7 +117,6 @@ export default function LetterDetailScreen() {
     );
   }
 
-  // Get country information
   const country = getCountryByCode(letter.otherUser.country);
 
   return (
@@ -192,7 +190,6 @@ export default function LetterDetailScreen() {
           <Ionicons name="mail-open" size={scale(76)} color={theme.colors.primary} style={styles.readerIcon} />
           <Text style={styles.letterTitle}>{letter.title}</Text>
           <View style={{ flex: 1 }}>
-            <Separator customOptions={["⋆｡✿ ⋆ ── ⋆ ✿｡⋆"]}/>
             <Text style={styles.letterContent}>{letter.content}</Text>
           </View>
         </View>

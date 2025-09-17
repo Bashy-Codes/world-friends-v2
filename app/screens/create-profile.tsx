@@ -7,12 +7,15 @@ import {
 import { scale, verticalScale } from "react-native-size-matters";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/lib/Theme";
-import { ScreenHeader } from "@/components/ScreenHeader";
-import { LoadingModal } from "@/components/common/LoadingModal";
 import { useCreateProfile } from "@/hooks/useCreateProfile";
 import { useTranslation } from "react-i18next";
+
+// components
+import { ScreenHeader } from "@/components/ScreenHeader";
+import { LoadingModal } from "@/components/common/LoadingModal";
 import { KeyboardHandler } from "@/components/common/KeyboardHandler";
 import { Button } from "@/components/ui/Button";
+
 
 export default function CreateProfileScreen() {
   const theme = useTheme();

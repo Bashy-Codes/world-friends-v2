@@ -4,6 +4,9 @@ import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context"
 import { scale, verticalScale } from "react-native-size-matters"
 import { useTranslation } from "react-i18next"
 import { router } from "expo-router"
+import { useProfile } from "@/hooks/useProfile"
+
+// components
 import { TabHeader } from "@/components/TabHeader"
 import { UserInfo } from "@/components/profile/UserInfo"
 import { SegmentControl } from "@/components/profile/SegmentControl"
@@ -12,7 +15,6 @@ import { PostsSection } from "@/components/profile/PostsSection"
 import { CollectionsSection } from "@/components/profile/CollectionsSection"
 import { ActionItem } from "@/components/common/ActionItem"
 import { ScreenPlaceholder } from "@/components/common/ScreenPlaceholder"
-import { useProfile } from "@/hooks/useProfile"
 import { ScreenLoading } from "@/components/ScreenLoading"
 import { Separator } from "@/components/common/Separator"
 

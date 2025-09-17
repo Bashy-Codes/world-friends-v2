@@ -15,7 +15,6 @@ interface SystemBarsProviderProps {
  * - Edge-to-edge compatible system bars
  * - Immediate rendering without blocking UI
  *
- * Note: The main ThemeProvider is now in lib/Theme/index.ts
  */
 export const SystemBarsProvider: React.FC<SystemBarsProviderProps> = ({ children }) => {
   const isDark = useIsDark();

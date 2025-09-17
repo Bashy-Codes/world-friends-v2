@@ -4,15 +4,16 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import { router } from "expo-router";
 import { useTheme, useThemeActions } from "@/lib/Theme";
-import Toast from "react-native-toast-message";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useConvex, useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
+import Toast from "react-native-toast-message";
 import { useTranslation } from "react-i18next";
 import {
   getCurrentLanguage,
   SupportedLanguageCode,
 } from "@/lib/i18n";
+import { logOutRevenueCat } from "@/lib/RevenueCat";
 
 // components
 import { ScreenHeader } from "@/components/ScreenHeader";
@@ -82,6 +83,7 @@ export default function SettingsScreen() {
     try {
       await signOut();
       convex.clearAuth();
+      await logOutRevenueCat();
       setShowLogoutModal(false);
       router.replace("/(auth)/auth");
     } catch (error) {
@@ -136,6 +138,7 @@ export default function SettingsScreen() {
   const handleAppAbout = useCallback(() => {
     router.push("/screens/app-info");
   }, [router]);
+
 
   const styles = StyleSheet.create({
     container: {

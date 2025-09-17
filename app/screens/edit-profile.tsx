@@ -3,11 +3,9 @@ import {
   View,
   StyleSheet,
   ScrollView,
-  TouchableOpacity,
-  Text,
 } from "react-native";
-import { scale, verticalScale, moderateScale } from "react-native-size-matters";
-import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
+import { scale, verticalScale } from "react-native-size-matters";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/lib/Theme";
 import { ScreenHeader } from "@/components/ScreenHeader";
 import { LoadingModal } from "@/components/common/LoadingModal";
@@ -19,7 +17,6 @@ import { Button } from "@/components/ui/Button";
 export default function EditProfileScreen() {
   const theme = useTheme();
   const { t } = useTranslation();
-  const insets = useSafeAreaInsets();
 
   const {
     scrollViewRef,
@@ -88,8 +85,7 @@ export default function EditProfileScreen() {
           />
         </View>
       </View>
-
-      {/* Wrap ScrollView in KeyboardAvoidingView */}
+      
       <KeyboardHandler enabled={true}>
         {/* Step Content */}
         <ScrollView
@@ -108,8 +104,6 @@ export default function EditProfileScreen() {
       </KeyboardHandler>
 
       {/* Bottom Button */}
-        
-                  {/* Navigation Buttons */}
       <View style={styles.buttonContainer}>
       {!isFirstStep && (
         <Button

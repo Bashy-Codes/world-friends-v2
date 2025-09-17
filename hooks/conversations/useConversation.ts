@@ -15,7 +15,7 @@ import { ConversationInfo, MessageData } from "@/types/conversations";
 
 
 /**
- * Custom hook for managing conversation screen logic
+ * Hook for managing conversation screen logic
  *
  * This hook provides:
  * - Conversation info fetching and state management

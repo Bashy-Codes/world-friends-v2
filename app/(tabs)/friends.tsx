@@ -1,15 +1,16 @@
-import { View, StyleSheet, TouchableOpacity } from "react-native"
+import { View, StyleSheet } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
-import { scale, verticalScale } from "react-native-size-matters"
 import { useTranslation } from "react-i18next"
 import { useTheme } from "@/lib/Theme"
+import { useFriends } from "@/hooks/useFriends"
+
+// components
 import { TabHeader } from "@/components/TabHeader"
 import { SegmentedControl } from "@/components/friends/SegmentedControl"
 import { FriendsSection } from "@/components/friends/FriendsSection"
 import { RequestsSection } from "@/components/friends/RequestsSection"
 import { ConfirmationModal } from "@/components/common/ConfirmationModal"
 import { LoadingModal } from "@/components/common/LoadingModal"
-import { useFriends } from "@/hooks/useFriends"
 
 export default function FriendsTab() {
   const theme = useTheme()
@@ -39,10 +40,6 @@ export default function FriendsTab() {
     loadMoreFriends,
     loadMoreRequests,
   } = useFriends()
-
-  const handleRequestsPress = () => {
-    // router.push('/friends/requests');
-  }
 
   const styles = StyleSheet.create({
     container: {

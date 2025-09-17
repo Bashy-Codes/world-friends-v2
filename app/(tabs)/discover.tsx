@@ -97,7 +97,7 @@ export default function DiscoverTab() {
           width: scale(30),
           height: scale(30),
         },
-        floatingFilterButton: {
+        filterButton: {
           position: "absolute",
           bottom: verticalScale(100),
           right: scale(20),
@@ -116,7 +116,7 @@ export default function DiscoverTab() {
           shadowRadius: 8,
           elevation: 8,
         },
-        floatingFilterButtonActive: {
+        filterButtonActive: {
           backgroundColor: theme.colors.success,
         },
       }),
@@ -144,11 +144,11 @@ export default function DiscoverTab() {
         />
       </View>
 
-      {/* Floating Filter Button */}
+      {/* Filter Button */}
       <TouchableOpacity
         style={[
-          styles.floatingFilterButton,
-          hasActiveFilters && styles.floatingFilterButtonActive
+          styles.filterButton,
+          hasActiveFilters && styles.filterButtonActive
         ]}
         onPress={hasActiveFilters ? handleFiltersReset : handleFilterPress}
         activeOpacity={0.8}

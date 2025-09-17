@@ -1,22 +1,10 @@
-import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
-
+import { v } from "convex/values";
 import { r2 } from "./storage";
 import { Id } from "./_generated/dataModel";
 import { createNotification } from "./notifications";
-import { areFriends } from "./helpers";
-
-function calculateAge(birthDate: string): number {
-  const today = new Date();
-  const birth = new Date(birthDate);
-  let age = today.getFullYear() - birth.getFullYear();
-  const monthDiff = today.getMonth() - birth.getMonth();
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
-    age--;
-  }
-  return age;
-}
+import { areFriends, calculateAge } from "./helpers";
 
 function getAgeGroup(birthDate: string): "13-17" | "18-100" {
   const age = calculateAge(birthDate);
@@ -28,16 +16,13 @@ function getAgeGroup(birthDate: string): "13-17" | "18-100" {
  * This should be called when a user makes a purchase through RevenueCat
  */
 export const updateSupporterStatus = mutation({
-  args: {
-    isSupporter: v.boolean(),
-  },
-  handler: async (ctx, args) => {
+  handler: async (ctx) => {
     const userId = await getAuthUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     // Update the user's supporter status
     await ctx.db.patch(userId, {
-      isSupporter: args.isSupporter,
+      isSupporter: true,
     });
 
     return { success: true };

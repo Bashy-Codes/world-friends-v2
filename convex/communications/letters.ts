@@ -1,33 +1,10 @@
-import { v } from "convex/values";
 import { mutation, query } from "../_generated/server";
 import { paginationOptsValidator } from "convex/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
+import { v } from "convex/values";
 import { createNotification } from "../notifications";
-import { areFriends } from "../helpers";
+import { areFriends, calculateAge, calculateDaysUntilDelivery } from "../helpers";
 import { r2 } from "../storage";
-
-/**
- * Helper function to calculate age from birth date
- */
-function calculateAge(birthDate: string): number {
-  const today = new Date();
-  const birth = new Date(birthDate);
-  let age = today.getFullYear() - birth.getFullYear();
-  const monthDiff = today.getMonth() - birth.getMonth();
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
-    age--;
-  }
-  return age;
-}
-
-/**
- * Helper function to calculate days until delivery
- */
-function calculateDaysUntilDelivery(deliverAt: number): number {
-  const now = Date.now();
-  const diffMs = deliverAt - now;
-  return Math.ceil(diffMs / (1000 * 60 * 60 * 24));
-}
 
 
 /**

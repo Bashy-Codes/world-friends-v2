@@ -3,7 +3,6 @@ import { mutation, query } from "../_generated/server";
 import { paginationOptsValidator } from "convex/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
 import { areFriends } from "../helpers";
-
 import { createNotification } from "../notifications";
 import { r2 } from "../storage";
 

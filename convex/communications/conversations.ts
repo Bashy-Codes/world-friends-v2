@@ -15,17 +15,6 @@ function generateConversationGroupId(
   return [userId1, userId2].sort().join("-");
 }
 
-
-// Helper function to check if user is admin
-async function isAdmin(ctx: any, userId: Id<"users">): Promise<boolean> {
-  const profile = await ctx.db
-    .query("profiles")
-    .withIndex("by_userId", (q: any) => q.eq("userId", userId))
-    .first();
-
-  return profile?.isAdmin || false;
-}
-
 export const createConversation = mutation({
   args: {
     otherUserId: v.id("users"),
@@ -53,11 +42,9 @@ export const createConversation = mutation({
       return existingConversation.conversationGroupId;
     }
 
-    // Check if current user is admin or if users are friends
-    const currentUserIsAdmin = await isAdmin(ctx, currentUserId);
     const areUserFriends = await areFriends(ctx, currentUserId, otherUserId);
 
-    if (!currentUserIsAdmin && !areUserFriends) {
+    if (!areUserFriends) {
       throw new Error("You can only create conversations with friends");
     }
 

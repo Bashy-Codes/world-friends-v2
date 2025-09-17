@@ -6,7 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { FlashList } from "@shopify/flash-list";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@/lib/Theme";
-import { useLetters } from "@/hooks/communications/useLetters";
+import { useLetters } from "@/hooks/letters/useLetters";
 
 // components
 import { ScreenHeader } from "@/components/ScreenHeader";

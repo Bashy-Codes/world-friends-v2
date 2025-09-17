@@ -2,10 +2,8 @@ import { mutation, query } from "../_generated/server";
 import { paginationOptsValidator } from "convex/server";
 import { v } from "convex/values";
 import { getAuthUserId } from "@convex-dev/auth/server";
-import { areFriends, getUserFriends } from "../helpers";
+import { areFriends, getUserFriends,  incrementCollectionPostsCount, decrementCollectionPostsCount  } from "../helpers";
 import { r2 } from "../storage";
-import { incrementCollectionPostsCount, decrementCollectionPostsCount } from "./collections";
-
 
 /**
  * Create a new post

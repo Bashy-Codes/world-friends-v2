@@ -170,12 +170,12 @@ export default function PostScreen() {
             <PostCard
               post={post}
               onReaction={handleReaction}
-              onComment={() => {}} // No-op since comments are shown below
+              onComment={() => {}} 
               onImagePress={handleImagePress}
-              onReadMore={() => {}} // No-op since we're showing full text
+              onReadMore={() => {}} 
               onReactionsPress={handleReactionsPress}
               onUserPress={handleUserPress}
-              onOptionsPress={undefined} // Hide ellipsis since header has options
+              onOptionsPress={undefined}
               showFullText={true}
             />
             {/* Separator */}

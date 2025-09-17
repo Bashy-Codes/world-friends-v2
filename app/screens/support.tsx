@@ -18,10 +18,10 @@ export default function SupportScreen() {
     const {
         isInitialized,
         isLoading,
+        isSupporterActive,
         isPurchasing,
         isRestoring,
         supporterPackage,
-        isSupporterActive,
         makePurchase,
         restoreUserPurchases,
     } = useRevenueCat();

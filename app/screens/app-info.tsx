@@ -270,7 +270,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginBottom: verticalScale(4),
   },
-  // Convex Section Styles
   convexSection: {
     marginBottom: verticalScale(40),
     paddingVertical: verticalScale(20),

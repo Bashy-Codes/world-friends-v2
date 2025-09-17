@@ -5,7 +5,7 @@ import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { useTheme } from "@/lib/Theme";
 import { useTranslation } from "react-i18next";
-import { useComposeLetter } from "@/hooks/communications/useComposeLetter";
+import { useComposeLetter } from "@/hooks/letters/useComposeLetter";
 import { getCountryByCode } from "@/constants/geographics";
 
 // components
@@ -13,7 +13,7 @@ import { ScreenHeader } from "@/components/ScreenHeader";
 import { ProfilePicture } from "@/components/common/TinyProfilePicture";
 import { ConfirmationModal } from "@/components/common/ConfirmationModal";
 import { LoadingModal } from "@/components/common/LoadingModal";
-import { FriendsPickerSheet } from "@/components/letters/FriendsPickerSheet";
+import { FriendsPickerSheet } from "@/components/common/FriendsPickerSheet";
 import { ScheduleLetter } from "@/components/letters/ScheduleLetter";
 import { LargeInputContainer } from "@/components/common/LargeInputContainer";
 import { Button } from "@/components/ui/Button";
@@ -261,7 +261,7 @@ export default function ComposeLetterScreen() {
         icon="send-outline"
         description={selectedFriend ? t("confirmation.sendLetter.description", {
           name: selectedFriend.name,
-          countryFlag: getCountryByCode(selectedFriend.country)?.flag || "🌍"
+          countryFlag: getCountryByCode(selectedFriend.country)?.flag
         }) : ""}
         iconColor={theme.colors.primary}
         confirmButtonColor={theme.colors.success}

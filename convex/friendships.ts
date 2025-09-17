@@ -1,45 +1,11 @@
-import { v } from "convex/values";
 import { mutation, query, QueryCtx, MutationCtx } from "./_generated/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
 import { Id } from "./_generated/dataModel";
 import { paginationOptsValidator } from "convex/server";
+import { v } from "convex/values";
 import { createNotification } from "./notifications";
-import { areFriends } from "./helpers";
+import { areFriends, calculateAge, hasPendingRequest} from "./helpers";
 import { r2 } from "./storage";
-
-async function hasPendingRequest(
-  ctx: QueryCtx | MutationCtx,
-  senderId: Id<"users">,
-  receiverId: Id<"users">
-): Promise<boolean> {
-  const [request, reverseRequest] = await Promise.all([
-    ctx.db
-      .query("friendRequests")
-      .withIndex("by_both", (q) =>
-        q.eq("senderId", senderId).eq("receiverId", receiverId)
-      )
-      .first(),
-    ctx.db
-      .query("friendRequests")
-      .withIndex("by_both", (q) =>
-        q.eq("senderId", receiverId).eq("receiverId", senderId)
-      )
-      .first(),
-  ]);
-
-  return !!(request || reverseRequest);
-}
-
-function calculateAge(birthDate: string): number {
-  const today = new Date();
-  const birth = new Date(birthDate);
-  let age = today.getFullYear() - birth.getFullYear();
-  const monthDiff = today.getMonth() - birth.getMonth();
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
-    age--;
-  }
-  return age;
-}
 
 async function batchEnrichProfiles(
   ctx: QueryCtx,

@@ -1,9 +1,8 @@
 import { useState, useCallback } from "react"
-import { View, StyleSheet, ScrollView, TouchableOpacity, Text, Platform } from "react-native"
+import { View, StyleSheet, ScrollView } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
 import { useLocalSearchParams } from "expo-router"
-import { scale, verticalScale, moderateScale } from "react-native-size-matters"
-import { Ionicons } from "@expo/vector-icons"
+import { scale, verticalScale } from "react-native-size-matters"
 import { useTranslation } from "react-i18next"
 import { useTheme } from "@/lib/Theme"
 import type { Id } from "@/convex/_generated/dataModel"
@@ -87,20 +86,6 @@ export default function UserProfileScreen() {
       paddingHorizontal: scale(20),
       paddingVertical: verticalScale(16),
     },
-    errorContainer: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-      paddingHorizontal: scale(40),
-    },
-    errorText: {
-      fontSize: moderateScale(18),
-      fontWeight: "600",
-      color: theme.colors.textSecondary,
-      textAlign: "center",
-      marginTop: verticalScale(16),
-    },
-    // Content styles
     contentContainer: {
       flex: 1,
     },
@@ -112,13 +97,11 @@ export default function UserProfileScreen() {
 
   if (!userProfile) {
     return (
-      <SafeAreaView style={styles.container} edges={["left", "right", "bottom"]}>
-        <ScreenHeader title="Profile" rightComponent="ellipsis" onRightPress={handleEllipsisPress} />
-        <View style={styles.errorContainer}>
-          <Ionicons name="person-circle-outline" size={scale(80)} color={theme.colors.textMuted} />
-          <Text style={styles.errorText}>{t("emptyState.userNotFound")}</Text>
-        </View>
-      </SafeAreaView>
+     <ScreenPlaceholder
+        title={t("emptyState.userNotFound")}
+        icon="person-circle-outline"
+        showButton={false}
+      />
     )
   }
 

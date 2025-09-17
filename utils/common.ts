@@ -25,31 +25,3 @@ export const getCounterColor = (length: number, minLength: number, maxLength: nu
   if (length >= maxLength) return theme.colors.error;
   return theme.colors.text;
 };
-
-// Delivery message utility for letters
-export const getDeliveryMessage = (
-  isSender: boolean,
-  otherUserName: string,
-  countryName: string,
-  countryFlag: string,
-  timeAgo: string,
-  t: (key: string, options?: any) => string
-) => {
-  if (isSender) {
-    // For sent letters: "Composed by you to be delivered to [user] in [country]"
-    return t("letter.delivery.sent", {
-      userName: otherUserName,
-      timeAgo,
-      countryName,
-      countryFlag
-    });
-  } else {
-    // For received letters: "Composed by [user] [time] from [country]"
-    return t("letter.delivery.received", {
-      userName: otherUserName,
-      timeAgo,
-      countryName,
-      countryFlag
-    });
-  }
-};

@@ -1,5 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
-import { Platform } from 'react-native';
+import { useState, useCallback } from 'react';
 import {
   initializeRevenueCat,
   getSupporterPackage,
@@ -10,7 +9,8 @@ import {
 } from '@/lib/RevenueCat';
 import { PurchasesPackage, CustomerInfo } from 'react-native-purchases';
 import Toast from 'react-native-toast-message';
-import { useTranslation } from 'react-i18next';
+import { useMutation } from 'convex/react';
+import { api } from '@/convex/_generated/api';
 
 interface UseRevenueCatReturn {
   // State
@@ -30,7 +30,7 @@ interface UseRevenueCatReturn {
 }
 
 /**
- * Custom hook for managing RevenueCat integration
+ * WorldFriends hook for managing RevenueCat
  * 
  * This hook provides:
  * - SDK initialization
@@ -40,9 +40,8 @@ interface UseRevenueCatReturn {
  * - Loading states
  */
 export const useRevenueCat = (): UseRevenueCatReturn => {
-  const { t } = useTranslation();
 
-  // State
+  // States
   const [isInitialized, setIsInitialized] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isPurchasing, setIsPurchasing] = useState(false);
@@ -50,6 +49,8 @@ export const useRevenueCat = (): UseRevenueCatReturn => {
   const [supporterPackage, setSupporterPackage] = useState<PurchasesPackage | null>(null);
   const [isSupporterActive, setIsSupporterActive] = useState(false);
   const [customerInfo, setCustomerInfo] = useState<CustomerInfo | null>(null);
+
+  const updateSupporterStatus = useMutation(api.users.updateSupporterStatus)
 
   /**
    * Initialize RevenueCat SDK
@@ -109,6 +110,7 @@ export const useRevenueCat = (): UseRevenueCatReturn => {
 
       if (result.success) {
         // Update supporter status
+        updateSupporterStatus();
         setIsSupporterActive(true);
         setCustomerInfo(result.customerInfo || null);
 

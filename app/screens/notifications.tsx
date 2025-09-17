@@ -5,13 +5,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@/lib/Theme";
-import { ScreenHeader } from "@/components/ScreenHeader";
 import { formatTimeAgo } from "@/utils/formatTime";
 import { useRouter } from "expo-router";
-import { ScreenLoading } from "@/components/ScreenLoading";
 import { useNotifications } from "@/hooks/useNotifications";
 import { NotificationItem } from "@/types";
 
+import { ScreenLoading } from "@/components/ScreenLoading";
+import { ScreenHeader } from "@/components/ScreenHeader";
 
 export default function NotificationsScreen() {
   const theme = useTheme();

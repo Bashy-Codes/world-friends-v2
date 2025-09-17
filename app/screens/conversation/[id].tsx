@@ -1,4 +1,4 @@
-import React, { useRef, useCallback, useMemo } from "react";
+import React, { useCallback } from "react";
 import { StyleSheet, FlatList } from "react-native";
 import { useLocalSearchParams } from "expo-router";
 import { verticalScale } from "react-native-size-matters";
@@ -29,10 +29,8 @@ export default function ConversationScreen() {
   }
   const conversationGroupId = id as string;
 
-  // Use the messages hook
   const { messages, isLoading, loadOlderMessages, hasOlderMessages } = useMessages(conversationGroupId);
 
-  // Use the conversation hook
   const {
     conversationInfo,
     selectedMessage,

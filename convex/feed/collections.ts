@@ -2,44 +2,8 @@ import { mutation, query } from "../_generated/server";
 import { paginationOptsValidator } from "convex/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
 import { v } from "convex/values";
-import { Id } from "../_generated/dataModel";
-
-import { areFriends } from "../helpers";
+import { areFriends, incrementCollectionPostsCount, decrementCollectionPostsCount } from "../helpers";
 import { r2 } from "../storage";
-
-// ============================================================================
-// HELPER FUNCTIONS
-// ============================================================================
-
-/**
- * Increment posts count for a collection
- */
-export const incrementCollectionPostsCount = async (
-  ctx: any,
-  collectionId: Id<"collections">
-) => {
-  const collection = await ctx.db.get(collectionId);
-  if (collection) {
-    await ctx.db.patch(collectionId, {
-      postsCount: collection.postsCount + 1,
-    });
-  }
-};
-
-/**
- * Decrement posts count for a collection
- */
-export const decrementCollectionPostsCount = async (
-  ctx: any,
-  collectionId: Id<"collections">
-) => {
-  const collection = await ctx.db.get(collectionId);
-  if (collection && collection.postsCount > 0) {
-    await ctx.db.patch(collectionId, {
-      postsCount: collection.postsCount - 1,
-    });
-  }
-};
 
 // ============================================================================
 // COLLECTIONS SYSTEM

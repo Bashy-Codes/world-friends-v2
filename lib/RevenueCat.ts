@@ -8,24 +8,22 @@ import { Platform } from 'react-native';
 // RevenueCat configuration
 const REVENUECAT_CONFIG = {
   
-  // You'll need to replace these with your actual API keys from RevenueCat dashboard
   apiKeys: {
-    apple: 'appl_YOUR_APPLE_API_KEY', // Replace with your Apple API key
-    google: 'goog_HveuqiqhyWQwsXRkbMPptyXxhry', // Replace with your Google API key
+    apple: 'appl_YOUR_APPLE_API_KEY',
+    google: 'goog_HveuqiqhyWQwsXRkbMPptyXxhry',
   },
-  // Your entitlement identifier from RevenueCat dashboard
+  // Entitlement identifier from RevenueCat
   entitlements: {
-    supporter: 'supporter', // Replace with your entitlement ID
+    supporter: 'supporter', // Entitlement ID
   },
-  // Your offering identifier from RevenueCat dashboard
+  // Offering identifier from RevenueCat
   offerings: {
-    supporter: 'supporter_donation', // Replace with your offering ID
+    supporter: 'supporter_donation', // Offering ID
   },
 };
 
 /**
- * Initialize RevenueCat SDK
- * Call this once when your app starts
+ * Initializes RevenueCat SDK
  */
 export const initializeRevenueCat = async (userId?: string): Promise<void> => {
   try {
@@ -36,7 +34,7 @@ export const initializeRevenueCat = async (userId?: string): Promise<void> => {
     Purchases.setLogLevel(Purchases.LOG_LEVEL.DEBUG); // For testing in dev
     
     // Configure RevenueCat
-    await Purchases.configure({ apiKey });
+    Purchases.configure({ apiKey });
 
     // Set user ID if provided (for tracking purchases across devices)
     if (userId) {
@@ -71,9 +69,9 @@ export const getSupporterPackage = async (): Promise<PurchasesPackage | null> =>
     const offering = await getOfferings();
     if (!offering) return null;
 
-    // Find the supporter package (you can customize this based on your package identifier)
+    // Find the supporter package (Customize this based on package identifier)
     const supporterPackage = offering.availablePackages.find(
-      pkg => pkg.identifier === 'supporter_donation' // Replace with your package identifier
+      pkg => pkg.identifier === 'supporter_donation' // Package identifier
     );
 
     return supporterPackage || null;
@@ -166,7 +164,7 @@ export const getCustomerInfo = async (): Promise<CustomerInfo | null> => {
 };
 
 /**
- * Log out user from RevenueCat (call when user logs out of your app)
+ * Log out user from RevenueCat
  */
 export const logOutRevenueCat = async (): Promise<void> => {
   try {

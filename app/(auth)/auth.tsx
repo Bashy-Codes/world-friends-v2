@@ -92,7 +92,7 @@ export default function AuthScreen() {
       
       if (isSignupMode) {
         router.push({ 
-          pathname: "/screens/otp-verification", 
+          pathname: "./otp-verification", 
           params: { email: formData.email } 
         })
       } else {
