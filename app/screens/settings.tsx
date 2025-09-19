@@ -197,17 +197,6 @@ export default function SettingsScreen() {
           </Text>
 
           <ActionItem
-            icon={theme.isDark ? "sunny-outline" : "moon-outline"}
-            iconColor={theme.colors.secondary}
-            iconBgColor={`${theme.colors.secondary}15`}
-            title={t("settings.theme.title")}
-            description="🎨⋆｡˚ ☁︎ ˚｡⋆｡˚☁︎ ˚｡⋆🎨"
-            type="toggle"
-            value={theme.isDark}
-            onValueChange={handleThemeToggle}
-          />
-
-          <ActionItem
             icon="language-outline"
             iconColor={theme.colors.success}
             iconBgColor={`${theme.colors.success}15`}

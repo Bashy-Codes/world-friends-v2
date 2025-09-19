@@ -1,14 +1,12 @@
 {
   "expo": {
-    "name": "world-friends",
-    "slug": "world-friends",
+    "name": "WorldFriends",
+    "slug": "worldfriends",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "edgeToEdge": true,
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -16,7 +14,7 @@
         "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select and save images.",
         "NSPhotoLibraryAddUsageDescription": "This app needs access to save photos to your photo library."
       },
-      "bundleIdentifier": "com.anonymous.worldfriends"
+      "bundleIdentifier": "com.worldfriends.app"
     },
     "android": {
       "permissions": [
@@ -26,12 +24,8 @@
         "android.permission.READ_MEDIA_IMAGES",
         "android.permission.RECORD_AUDIO"
       ],
-      "package": "com.anonymous.worldfriends"
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "package": "com.worldfriends.app",
+      "versionCode": 1
     },
     "plugins": [
       "expo-router",
@@ -65,11 +59,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "6b0dab38-ea03-4e2c-a651-17d8146a4b33"
-      }
-    },
-    "owner": "itsmebashy"
+      "router": {}
+    }
   }
 }

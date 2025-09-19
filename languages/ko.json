@@ -1,101 +1,95 @@
 {
-  "tabTitle": {
+  "screenTitles": {
+    "communityGuidelines": "커뮤니티 규칙",
     "home": "홈",
-    "discover": "탐색",
+    "discover": "발견",
+    "friends": {
+      "title": "친구",
+      "secondSection": "요청"
+    },
     "conversations": "대화",
-    "profile": "프로필"
-  },
-  "screenTitle": {
-    "postDetails": "게시물",
+    "profile": "프로필",
+    "post": "게시물",
     "createPost": "게시물 작성",
     "notifications": "알림",
     "report": "신고",
-    "settings": "설정"
-  },
+    "settings": "설정",
+    "profileManagement": {
+      "first": "기본 정보",
+      "second": "언어와 국가",
+      "third": "자기소개",
+      "fourth": "여행과 관심사",
+      "final": "완료"
+    },
+    "composeLetter": "편지 쓰기",
+    "letters": "편지",
+    "letter": "편지",
+    "supporter": "서포터 되기",
+    "appInfo": "플랫폼 정보"
+  }, 
   "common": {
+    "continue": "계속",
+    "done": "완료",
+    "back": "뒤로",
+    "createCollection": "컬렉션 만들기",
+    "selected": "선택됨",
+    "searchPlaceholder": "검색...",
+    "typeMessage": "메시지 입력...",
+    "loading": "로딩 중...",
+    "reply": "답글",
+    "view": "보기",
     "genders": {
       "male": "남성",
       "female": "여성",
       "other": "기타"
     },
-    "searchPlaceholder": "검색...",
-    "loading": "로딩 중..."
+    "emptyState": "항목을 찾을 수 없음",
+    "day": "일",
+    "days": "일"
   },
-  "home": {
-    "greetings": {
-      "goodMorning": "좋은 아침",
-      "goodAfternoon": "좋은 오후",
-      "goodEvening": "좋은 저녁",
-      "goodNight": "좋은 밤"
-    },
-    "writeSomething": "무엇을 생각하고 계신가요?"
-  },
-  "discover": {
-    "filter": {
-      "title": "필터",
-      "country": "국가",
-      "languageSpoken": "사용 언어",
-      "languageLearning": "학습 언어"
-    }
-  },
+
   "profile": {
     "actionText": {
       "settings": "설정",
-      "settingsDescription": "계정 및 환경설정 관리",
+      "settingsDescription": "계정과 환경설정을 관리하세요"
+      },
       "addFriend": "친구 추가",
-      "pendingRequest": "요청 대기 중"
-    },
+      "pendingRequest": "대기 중인 요청",
     "items": {
       "aboutMe": "자기소개",
       "languages": "언어",
       "travel": "여행",
       "hobbies": "취미",
-      "books": "도서"
+      "books": "책"
     },
     "subsections": {
-      "speaking": "구사",
+      "speaking": "구사 언어",
       "learning": "학습 중",
-      "visited": "방문함",
-      "wantToVisit": "방문하고 싶음"
+      "visited": "방문한 곳",
+      "wantToVisit": "가고 싶은 곳"
     },
     "restriction": {
-      "posts": "이 사용자의 게시물은 비공개입니다",
-      "collections": "이 사용자의 컬렉션은 비공개입니다"
-    }
+      "posts": "이 사용자의 게시물을 보려면 친구가 되어야 합니다",
+      "collections": "이 사용자의 컬렉션을 보려면 친구가 되어야 합니다"
+    },
+    "friendRequestModal.title": "친구 요청 보내기",
+    "friendRequestModal.placeholder": "자기소개 메시지를 작성하세요 "
   },
   "createPost": {
-    "placeholder": "무엇을 생각하고 계신가요?",
-    "imageSection": {
-      "title": "이미지 추가"
-    }
+    "placeholder": "무슨 생각을 하고 계신가요?",
+    "sections": {
+      "addImages": "이미지 추가",
+      "addTags": "태그 추가",
+      "selectCollection": "컬렉션 선택"
   },
-  "collections": {
-    "newButton": "새 컬렉션",
-    "post": "게시물",
-    "posts": "게시물들",
-    "viewCollection": "컬렉션 보기"
+  "infoMessage": "게시물은 친구들에게만 표시됩니다"
   },
-  "comments": {
-    "addComment": "댓글 추가...",
-    "reply": "답글",
-    "replyingTo": "답글 대상",
-    "showReply": "답글 보기",
-    "hideReply": "답글 숨기기"
-  },
-  "userCard": {
-    "country": "국가",
-    "speaks": "구사 언어",
-    "learning": "학습 언어"
-  },
-  "actions": {
-    "delete": "삭제"
-  },
-  "notifications": {
-    "clearAll": "모두 지우기",
-    "emptySubtext": "친구 요청, 메시지 및 기타 활동에 대한 알림을 여기서 확인할 수 있습니다"
-  },
-  "letters": {
-    "title": "편지"
+  "composeLetter": {
+    "letterTitleInput": "편지 제목",
+    "inputPlaceholder": "여기에 편지를 작성하세요... 창의적으로 써보세요!",
+    "deliverTo": "전달할 상대",
+    "schedule": "전달 예약",
+    "deliveryTimeInfo": "편지가 전달될 예정입니다"
   },
   "settings": {
     "sectionTitles": {
@@ -106,14 +100,14 @@
     },
     "editProfile": {
       "title": "프로필 수정",
-      "description": "프로필 정보 및 환경설정 업데이트"
+      "description": "프로필 정보와 환경설정을 업데이트하세요"
     },
     "theme": {
       "title": "테마"
     },
     "language": {
       "title": "언어",
-      "description": "선호 언어 선택"
+      "description": "선호하는 언어를 선택하세요"
     },
     "logout": {
       "title": "로그아웃",
@@ -125,109 +119,28 @@
     },
     "platformInfo": {
       "title": "플랫폼 정보",
-      "description": "플랫폼 및 가이드라인에 대해 자세히 알아보기"
+      "description": "플랫폼과 규칙에 대해 자세히 알아보세요"
+    },
+    "supportApp": {
+      "title": "플랫폼 후원",
+      "description": "서포터가 될 수 있습니다!"
+    },
+    "contact": {
+      "title": "문의하기",
+      "description": "질문이 있거나 도움이 필요하신가요? 연락주세요!"
     }
-  },
-  "confirmation": {
-    "logout": {
-      "title": "로그아웃",
-      "description": "정말 로그아웃하시겠습니까?"
-    },
-    "deleteAccount": {
-      "title": "계정 삭제",
-      "description": "이 작업은 되돌릴 수 없습니다. 정말 삭제하시겠습니까?"
-    },
-    "removeFriend": {
-      "title": "친구 삭제",
-      "description": "정말 이 친구를 삭제하시겠습니까?"
-    },
-    "deleteComment": {
-      "title": "댓글 삭제",
-      "description": "정말 이 댓글을 삭제하시겠습니까?"
-    },
-    "deleteConversation": {
-      "title": "대화 삭제",
-      "description": "정말 이 대화를 삭제하시겠습니까?"
-    },
-    "deleteMessage": {
-      "title": "메시지 삭제",
-      "description": "정말 이 메시지를 삭제하시겠습니까?"
-    },
-    "discardPost": {
-      "title": "게시물 폐기",
-      "description": "정말 이 게시물을 폐기하시겠습니까?"
-    },
-    "createPost": {
-      "title": "게시물 작성",
-      "description": "정말 이 게시물을 작성하시겠습니까?"
-    },
-    "blockUser": {
-      "title": "사용자 차단",
-      "description": "정말 이 사용자를 차단하시겠습니까?"
-    }
-  },
-  "report": {
-    "reporting": "신고",
-    "user": "사용자",
-    "post": "게시물",
-    "postTitle": "게시물 제목",
-    "description": "설명",
-    "sections": {
-      "issue": "무엇이 문제인가요?",
-      "details": "추가 세부사항",
-      "evidence": "증거"
-    },
-    "types": {
-      "spam": {
-        "label": "스팸",
-        "description": "원치 않는 또는 반복적인 콘텐츠"
-      },
-      "harassment": {
-        "label": "괴롭힘",
-        "description": "괴롭힘 또는 괴롭히기"
-      },
-      "hate_speech": {
-        "label": "혐오 발언",
-        "description": "혐오적이거나 차별적인 콘텐츠"
-      },
-      "inappropriate_content": {
-        "label": "부적절한 콘텐츠",
-        "description": "커뮤니티 가이드라인을 위반하는 콘텐츠"
-      },
-      "other": {
-        "label": "기타",
-        "description": "다른 문제"
-      }
-    },
-    "detailsPlaceholder": "추가 세부사항을 제공해 주세요...",
-    "evidenceDescription": "선택사항: 스크린샷 또는 기타 증거 추가",
-    "addScreenshot": "스크린샷 추가",
-    "submitReport": "신고 제출"
-  },
-  "emptyState": {
-    "notifications": "알림이 없습니다",
-    "userNotFound": "사용자를 찾을 수 없습니다"
-  },
-  "friendRequestSheet": {
-    "title": "친구 요청 보내기",
-    "message": "메시지",
-    "placeholder": "메시지를 작성하세요..."
   },
   "createProfile": {
-    "backButton": "뒤로",
-    "steps": {
-      "travelInterests": "여행 및 관심사"
-    },
     "basicInfo": {
       "name": {
-        "label": "전체 이름",
-        "placeholder": "전체 이름을 입력하세요"
+        "label": "이름",
+        "placeholder": "이름을 입력하세요 "
       },
       "username": {
         "label": "사용자명",
         "placeholder": "사용자명을 선택하세요",
-        "available": "사용자명이 사용 가능합니다",
-        "taken": "사용자명이 이미 사용 중입니다"
+        "available": "사용자명 사용 가능",
+        "taken": "사용자명이 이미 사용 중"
       },
       "birthdate": {
         "label": "생년월일",
@@ -247,24 +160,26 @@
         "placeholder": "구사하는 언어를 선택하세요"
       },
       "learningLanguages": {
-        "label": "학습 언어",
-        "placeholder": "학습하는 언어를 선택하세요"
+        "label": "학습 중인 언어",
+        "placeholder": "학습 중인 언어를 선택하세요"
       }
     },
     "aboutMe": {
-      "profilePicture": {
-        "label": "프로필 사진",
-        "description": "다른 사람들이 알아볼 수 있도록 사진 추가",
-        "addPhoto": "사진 추가",
-        "changePhoto": "사진 변경"
-      },
       "bio": {
         "label": "자기소개",
-        "placeholder": "자신에 대해 소개해 주세요..."
+        "placeholder": "자신에 대해 소개해 주세요... 창의적으로 써보세요!"
       },
       "hobbies": {
-        "label": "취미 및 관심사",
-        "placeholder": "무엇을 즐기시나요?"
+        "label": "취미와 관심사",
+        "placeholder": "무엇을 즐겨 하시나요?"
+      },
+        "favoriteBooks": {
+        "label": "좋아하는 책",
+        "placeholder": "좋아하는 책을 공유하세요"
+      },
+      "booksModal": {
+        "title": "좋아하는 책 추가",
+        "inputPlaceholder": "책 제목을 입력하세요..."
       }
     },
     "travelInterests": {
@@ -273,25 +188,28 @@
         "placeholder": "방문한 국가를 선택하세요"
       },
       "wantToVisitCountries": {
-        "label": "방문하고 싶은 국가",
-        "placeholder": "방문하고 싶은 국가를 선택하세요"
-      },
-      "favoriteBooks": {
-        "label": "좋아하는 책",
-        "placeholder": "좋아하는 책을 공유하세요"
+        "label": "가고 싶은 국가",
+        "placeholder": "가고 싶은 국가를 선택하세요"
       }
     },
     "finalize": {
-      "reviewTitle": "프로필 검토",
-      "reviewDescription": "프로필을 생성하기 전에 모든 것이 올바른지 확인하세요",
+      "finalizeTitle": "거의 완료되었습니다 🥳",
       "genderPreference": {
-        "label": "친구에 대한 성별 선호도",
-        "enabled": "특정 성별만 표시",
-        "disabled": "모든 성별 표시"
+        "label": "성별 설정",
+        "enabled": "활성화",
+        "disabled": "비활성화",
+        "descriptionEnabled": "같은 성별의 사람들만 볼 수 있고 보여집니다",
+        "descriptionDisabled": "모든 성별의 사람들을 볼 수 있고 보여집니다"
       },
       "safetyInfo": {
-        "ageRestriction": "나이차이 5년 이내 사용자와만 연결할 수 있습니다",
-        "genderPreference": "성별 선호도로 친구를 필터링할 수 있습니다"
+        "ageRestriction": "18세 미만이므로 나이가 많은 사람들이 연락하거나 프로필을 볼 수 없습니다",
+        "genderPreference": "성별 설정이 활성화되면 같은 성별의 사람들만 표시됩니다"
+      },
+        "profilePicture": {
+        "label": "프로필 사진",
+        "description": "다른 사람들이 인식할 수 있도록 사진을 추가하세요",
+        "addPhoto": "사진 추가",
+        "changePhoto": "사진 변경"
       }
     }
   },
@@ -300,36 +218,227 @@
       "infoMessage": "보안상의 이유로 일부 정보는 변경할 수 없습니다"
     }
   },
-  "onboarding": {
-    "readGuidelines": "커뮤니티 가이드라인 읽기",
+  "report": {
+    "reporting": "신고",
+    "user": "사용자",
+    "post": "게시물",
+    "postTitle": "게시물 제목",
+    "description": "부적절한 콘텐츠를 신고하여 커뮤니티를 안전하게 유지해 주세요",
+    "sections": {
+      "issue": "문제가 무엇인가요?",
+      "details": "추가 세부사항",
+      "evidence": "증거"
+    },
+    "types": {
+      "spam": {
+        "label": "스팸",
+        "description": "원치 않는 또는 반복적인 콘텐츠"
+      },
+      "harassment": {
+        "label": "괴롭힘",
+        "description": "괴롭힘이나 희롱"
+      },
+      "hate_speech": {
+        "label": "혐오 발언",
+        "description": "혐오적이거나 차별적인 콘텐츠"
+      },
+      "inappropriate_content": {
+        "label": "부적절한 콘텐츠",
+        "description": "커뮤니티 가이드라인을 위반하는 콘텐츠"
+      },
+      "other": {
+        "label": "기타",
+        "description": "기타 사항"
+      }
+    },
+    "detailsPlaceholder": "추가 세부사항을 제공해 주세요...",
+    "evidenceDescription": "필수: 스크린샷이나 기타 증거를 추가하세요",
+    "addScreenshot": "스크린샷 추가",
+    "submitReport": "신고 제출"
+  },
+ "onboarding": {
+    "readGuidelines": "커뮤니티 규칙 읽기",
     "globalConnections": {
       "title": "글로벌 연결",
       "description": "전 세계 사람들과 연결하세요"
     },
     "languageExchange": {
       "title": "언어 교환",
-      "description": "원어민과 언어를 연습하세요"
+      "description": "원어민과 함께 언어를 연습하세요"
     },
     "culturalDiscovery": {
       "title": "문화 발견",
-      "description": "다양한 문화와 전통에 대해 알아보세요"
+      "description": "다양한 문화와 전통을 배워보세요"
     }
   },
-  "guidelines": {
-    "communityGuidelines": "커뮤니티 가이드라인",
+  "guidelinesScreen": {    
     "safeCommunityStandards": "안전한 커뮤니티 표준",
     "introDescription": "WorldFriends에 오신 것을 환영합니다! 커뮤니티 가이드라인을 읽고 동의해 주세요.",
-    "accept": "동의합니다",
-    "continue": "계속"
+    "agreement": "커뮤니티 가이드라인에 동의합니다"
+  },
+  "supporter": {
+    "title": "WorldFriends 후원하기",
+    "whySectionTitle": "왜 서포터가 되어야 하나요?",
+    "whySectionDesc": "WorldFriends는 혼자서 개발하는 열정 프로젝트입니다. $2.99의 일회성 기부가 지속적인 개발을 도우며 앱을 모든 사람에게 무료로 제공할 수 있게 합니다",
+    "getSection": {
+      "title":  "받을 수 있는 것",
+      "firstBenefit": "프로필에 특별한 서포터 하트 배지",
+      "secondBenefit": "영원한 감사와 서포터 상태",
+      "thirdBenefit": "전 세계 사람들을 연결하는 데 기여"
+    },
+    "ctaButton": "서포터 되기 - ",
+    "ctaNote": "일회성 결제 • RevenueCat 제공 🐱",
+    "thankYou": "후원해 주셔서 감사합니다! ❤️"
+  },
+  "appInfo": {
+    "sponseredBy": "자랑스런 후원사",
+    "convexDesc": "소프트웨어 개발자의 삶을 바꾸는 반응형 Backend as a Service",
+    "aboutApp": "이 플랫폼에 대해",
+    "infoDesc": "WorldFriends는 글로벌 연결의 힘을 믿는 헌신적인 학생이 만든 열정 프로젝트입니다. 이 플랫폼은 서로 다른 문화, 언어, 배경을 가진 사람들을 하나로 모읍니다",
+    "getInTouch": "연락하기",
+    "footerText": "학생이 ❤️로 제작",
+    "appVersion": "© 2025 WorldFriends • 버전 1.0.0"
+  },
+  "auth": {
+    "signupTitle": "계정 생성",
+    "signupSubTitle": "가입하고 여정을 시작하세요",
+    "loginTitle": "다시 오신 것을 환영합니다",
+    "loginSubTitle": "로그인 정보를 입력하세요",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "noAccountCTA": "계정이 없으신가요? ",
+    "alreadyHaveAccountCTA": "이미 계정이 있으신가요? ",
+    "signIn": "로그인",
+    "signUp": "가입하기",
+    "verifyEmail": "이메일 인증",
+    "enterCode": "전송된 6자리 코드를 입력하세요"
+  },
+  "collections":{
+    "create": {
+      "title": "새 컬렉션",
+      "placeholder": "컬렉션 이름을 입력하세요..."
+    }
+  },
+  "comments": {
+    "addComment": "댓글 추가...",
+    "reply": "답글",
+    "replyingTo": "답글 대상",
+    "showReply": "답글 보기",
+    "hideReply": "답글 숨기기"
+  },
+  "greetings": {
+    "goodMorning": "좋은 아침",
+    "goodAfternoon": "좋은 오후",
+    "goodEvening": "좋은 저녁",
+    "goodNight": "좋은 밤"
+  },
+  "filterModal": {
+    "title": "필터",
+    "country": "국가",
+    "languageSpoken": "구사 언어",
+    "languageLearning": "학습 언어"
+  },
+  "emptyState": {
+    "notifications": "아직 알림이 없습니다",
+    "userNotFound": "사용자를 찾을 수 없음"
+  },
+  "friendRequestSheet": {
+    "title": "친구 요청 보내기",
+    "message": "메시지",
+    "placeholder": "메시지를 작성하세요..."
+  },
+  "userCard": {
+    "country": "국가",
+    "speaks": "구사 언어",
+    "learning": "학습 중"
+  },
+  "notifications": {
+    "clearAll": "모두 지우기",
+    "emptySubtext": "친구 요청, 메시지 및 기타 활동에 대한 알림이 여기에 표시됩니다"
+  },
+  "actions": {
+    "composeLetter": "편지 쓰기",
+    "writeSomething": "무언가 쓰기",
+    "deletePost": "게시물 삭제",
+    "removeFromCollection": "컬렉션에서 제거",
+    "addToCollection": "컬렉션에 추가",
+    "reportPost": "게시물 신고",
+    "reportUser": "사용자 신고",
+    "blockUser": "사용자 차단",
+    "removeFriend": "친구 삭제",
+    "deleteConversation": "대화 삭제",
+    "deleteMessage": "메시지 삭제",
+    "deleteLetter": "편지 삭제"
+  },
+  "confirmation": {
+    "logout": {
+      "description": "로그아웃하시겠습니까?"
+    },
+    "deleteAccount": {
+      "description": "계정을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "removeFriend": {
+      "description": "이 친구를 삭제하시겠습니까? "
+    },
+    "deleteComment": {
+      "description": "이 댓글을 삭제하시겠습니까?"
+    },
+    "deleteConversation": {
+      "description": "이 대화를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "deleteMessage": {
+      "description": "이 메시지를 삭제하시겠습니까?"
+    },
+    "deleteCollection": {
+      "description": "이 컬렉션을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "removeFromCollection": {
+      "description": "컬렉션에서 이 게시물을 제거하시겠습니까?"
+    },
+    "deletePost":{
+      "description": "이 게시물을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "discardPost": {
+      "description": "이 게시물을 취소하시겠습니까?"
+    },
+    "createPost": {
+      "description": "친구들과 게시물을 공유할 준비가 되셨나요?"
+    },
+    "blockUser": {
+      "description": "이 사용자를 차단하시겠습니까?"
+    },
+    "discardLetter": {
+      "description": "이 편지를 취소하시겠습니까? 모든 진행 상황이 손실됩니다."
+    },
+    "sendLetter": {
+      "description": "이 편지는 {{countryFlag}} {{name}}님에게 전달됩니다"
+    }
   },
   "successToasts": {
+    "collectionCreated": {
+      "text1": "컬렉션 생성됨",
+      "text2": "컬렉션이 생성되었습니다"
+    },
+    "collectionDeleted":{
+      "text1": "컬렉션 삭제됨",
+      "text2": "컬렉션이 성공적으로 삭제되었습니다"
+    },
+    "postAddedToCollection": {
+      "text1": "게시물 추가됨",
+      "text2": "게시물이 컬렉션에 추가되었습니다"
+    },
+    "postRemovedFromCollection": {
+      "text1": "게시물 제거됨",
+      "text2": "게시물이 컬렉션에서 제거되었습니다"
+    },
+    "letterDeleted": {
+      "text1": "편지 삭제됨",
+      "text2": "편지가 성공적으로 삭제되었습니다"
+    },
     "languageChanged": {
       "text1": "언어 변경됨",
-      "text2": "언어 선호도가 업데이트되었습니다"
-    },
-    "loggedOut": {
-      "text1": "로그아웃됨",
-      "text2": "성공적으로 로그아웃되었습니다"
+      "text2": "언어 설정이 업데이트되었습니다"
     },
     "accountDeleted": {
       "text1": "계정 삭제됨",
@@ -337,7 +446,15 @@
     },
     "reportSubmitted": {
       "text1": "신고 제출됨",
-      "text2": "커뮤니티를 안전하게 유지하는 데 도움을 주셔서 감사합니다"
+      "text2": "커뮤니티를 안전하게 유지해 주셔서 감사합니다"
+    },
+    "conversationDeleted": {
+      "text1": "대화 삭제됨",
+      "text2": "대화가 삭제되었습니다"
+    },
+    "postDeleted": {
+      "text1": "게시물 삭제됨",
+      "text2": "게시물이 삭제되었습니다"
     }
   },
   "errorToasts": {
@@ -346,16 +463,52 @@
       "text2": "문제가 발생했습니다. 다시 시도해 주세요."
     },
     "validationError": {
-      "text1": "유효성 검사 오류",
-      "text2": "입력 내용을 확인하고 다시 시도해 주세요"
+      "text1": "유효성 오류",
+      "text2": "입력 내용을 확인해 주세요"
+    },
+    "invalidOTP": {
+      "text1": "잘못된 코드",
+      "text2": "6자리 코드를 입력해 주세요"
+    },
+    "postAlreadyInCollection": {
+      "text1": "이미 컬렉션에 있음",
+      "text2": "이 게시물은 이미 컬렉션에 있습니다"
     },
     "cameraPermission": {
-      "text1": "카메라 권한이 필요합니다",
+      "text1": "카메라 권한 필요",
       "text2": "사진 촬영을 위해 카메라 권한을 허용해 주세요"
     },
     "photoLibraryPermission": {
-      "text1": "사진 라이브러리 권한이 필요합니다",
+      "text1": "사진 라이브러리 권한 필요",
       "text2": "사진 선택을 위해 사진 라이브러리 권한을 허용해 주세요"
     }
+  },
+  "notification": {
+    "friend_request_sent": "{{country}}의 {{senderName}}님이 친구 요청을 보냈습니다",
+    "friend_request_accepted": "{{country}}의 {{senderName}}님이 친구 요청을 수락했습니다",
+    "friend_request_rejected": "{{senderName}}님이 친구 요청을 거절했습니다",
+    "friend_removed": "{{senderName}}님이 친구 목록에서 삭제했습니다",
+    "conversation_deleted": "{{senderName}}님이 대화를 삭제했습니다",
+    "user_blocked": "{{senderName}}님이 회원님을 차단했습니다",
+    "post_reaction": "{{country}}의 {{senderName}}님이 게시물에 반응했습니다",
+    "post_commented": "{{country}}의 {{senderName}}님이 게시물에 댓글을 달았습니다",
+    "comment_replied": "{{country}}의 {{senderName}}님이 댓글에 답글을 달았습니다",
+    "letter_scheduled": "{{country}}의 {{senderName}}님으로부터 {{count}}{{dayLabel}} 후에 편지를 받을 예정입니다"
+  },
+  "time": {
+    "just_now": "방금",
+    "minute": "1분 전",
+    "minutes": "분 전",
+    "hour": "1시간 전",
+    "hours": "시간 전",
+    "yesterday": "어제",
+    "tomorrow": "내일",
+    "days": "일 전",
+    "week": "1주일 전",
+    "weeks": "주일 전",
+    "month": "1개월 전",
+    "months": "개월 전",
+    "year": "1년 전",
+    "years": "년 전"
   }
 }

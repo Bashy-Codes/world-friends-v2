@@ -64,7 +64,6 @@ export const useRevenueCat = (): UseRevenueCatReturn => {
       // Initialize RevenueCat
       await initializeRevenueCat(userId);
       setIsInitialized(true);
-      console.log("RevenueCat initialized successfully")
 
       // Load supporter package
       const supporterPackage = await getSupporterPackage();
